@@ -1,0 +1,1281 @@
+DNS Resolved for :www.google.com.
+173.194.43.80
+173.194.43.84
+173.194.43.82
+173.194.43.81
+173.194.43.83
+Iteration number:1,Time taken to resolve DNS for: www.google.com. : 621ms
+DNS Resolved for :www.google.com.
+173.194.43.83
+173.194.43.80
+173.194.43.84
+173.194.43.82
+173.194.43.81
+Iteration number:2,Time taken to resolve DNS for: www.google.com. : 5ms
+DNS Resolved for :www.google.com.
+173.194.43.81
+173.194.43.83
+173.194.43.80
+173.194.43.84
+173.194.43.82
+Iteration number:3,Time taken to resolve DNS for: www.google.com. : 3ms
+DNS Resolved for :www.google.com.
+173.194.43.82
+173.194.43.81
+173.194.43.83
+173.194.43.80
+173.194.43.84
+Iteration number:4,Time taken to resolve DNS for: www.google.com. : 5ms
+DNS Resolved for :www.google.com.
+173.194.43.84
+173.194.43.82
+173.194.43.81
+173.194.43.83
+173.194.43.80
+Iteration number:5,Time taken to resolve DNS for: www.google.com. : 4ms
+DNS Resolved for :www.google.com.
+173.194.43.80
+173.194.43.84
+173.194.43.82
+173.194.43.81
+173.194.43.83
+Iteration number:6,Time taken to resolve DNS for: www.google.com. : 6ms
+DNS Resolved for :www.google.com.
+173.194.43.83
+173.194.43.80
+173.194.43.84
+173.194.43.82
+173.194.43.81
+Iteration number:7,Time taken to resolve DNS for: www.google.com. : 8ms
+DNS Resolved for :www.google.com.
+173.194.43.81
+173.194.43.83
+173.194.43.80
+173.194.43.84
+173.194.43.82
+Iteration number:8,Time taken to resolve DNS for: www.google.com. : 4ms
+DNS Resolved for :www.google.com.
+173.194.43.82
+173.194.43.81
+173.194.43.83
+173.194.43.80
+173.194.43.84
+Iteration number:9,Time taken to resolve DNS for: www.google.com. : 4ms
+DNS Resolved for :www.google.com.
+173.194.43.84
+173.194.43.82
+173.194.43.81
+173.194.43.83
+173.194.43.80
+Iteration number:10,Time taken to resolve DNS for: www.google.com. : 4ms
+DNS Resolved for :www.Facebook.com.
+star-mini.c10r.Facebook.com.
+31.13.74.36
+Iteration number:1,Time taken to resolve DNS for: www.Facebook.com. : 29ms
+DNS Resolved for :www.Facebook.com.
+star-mini.c10r.Facebook.com.
+31.13.74.36
+Iteration number:2,Time taken to resolve DNS for: www.Facebook.com. : 5ms
+DNS Resolved for :www.Facebook.com.
+star-mini.c10r.Facebook.com.
+31.13.74.36
+Iteration number:3,Time taken to resolve DNS for: www.Facebook.com. : 4ms
+DNS Resolved for :www.Facebook.com.
+star-mini.c10r.Facebook.com.
+31.13.74.36
+Iteration number:4,Time taken to resolve DNS for: www.Facebook.com. : 5ms
+DNS Resolved for :www.Facebook.com.
+star-mini.c10r.Facebook.com.
+31.13.74.36
+Iteration number:5,Time taken to resolve DNS for: www.Facebook.com. : 4ms
+DNS Resolved for :www.Facebook.com.
+star-mini.c10r.Facebook.com.
+31.13.74.36
+Iteration number:6,Time taken to resolve DNS for: www.Facebook.com. : 6ms
+DNS Resolved for :www.Facebook.com.
+star-mini.c10r.Facebook.com.
+31.13.74.36
+Iteration number:7,Time taken to resolve DNS for: www.Facebook.com. : 4ms
+DNS Resolved for :www.Facebook.com.
+star-mini.c10r.Facebook.com.
+31.13.74.36
+Iteration number:8,Time taken to resolve DNS for: www.Facebook.com. : 4ms
+DNS Resolved for :www.Facebook.com.
+star-mini.c10r.Facebook.com.
+31.13.74.36
+Iteration number:9,Time taken to resolve DNS for: www.Facebook.com. : 4ms
+DNS Resolved for :www.Facebook.com.
+star-mini.c10r.Facebook.com.
+31.13.74.36
+Iteration number:10,Time taken to resolve DNS for: www.Facebook.com. : 4ms
+DNS Resolved for :www.Youtube.com.
+youtube-ui.l.google.com.
+216.58.219.238
+Iteration number:1,Time taken to resolve DNS for: www.Youtube.com. : 4ms
+DNS Resolved for :www.Youtube.com.
+youtube-ui.l.google.com.
+216.58.219.238
+Iteration number:2,Time taken to resolve DNS for: www.Youtube.com. : 5ms
+DNS Resolved for :www.Youtube.com.
+youtube-ui.l.google.com.
+216.58.219.238
+Iteration number:3,Time taken to resolve DNS for: www.Youtube.com. : 5ms
+DNS Resolved for :www.Youtube.com.
+youtube-ui.l.google.com.
+216.58.219.238
+Iteration number:4,Time taken to resolve DNS for: www.Youtube.com. : 15ms
+DNS Resolved for :www.Youtube.com.
+youtube-ui.l.google.com.
+216.58.219.238
+Iteration number:5,Time taken to resolve DNS for: www.Youtube.com. : 10ms
+DNS Resolved for :www.Youtube.com.
+youtube-ui.l.google.com.
+216.58.219.238
+Iteration number:6,Time taken to resolve DNS for: www.Youtube.com. : 7ms
+DNS Resolved for :www.Youtube.com.
+youtube-ui.l.google.com.
+216.58.219.238
+Iteration number:7,Time taken to resolve DNS for: www.Youtube.com. : 3ms
+DNS Resolved for :www.Youtube.com.
+youtube-ui.l.google.com.
+216.58.219.238
+Iteration number:8,Time taken to resolve DNS for: www.Youtube.com. : 10ms
+DNS Resolved for :www.Youtube.com.
+youtube-ui.l.google.com.
+216.58.219.238
+Iteration number:9,Time taken to resolve DNS for: www.Youtube.com. : 4ms
+DNS Resolved for :www.Youtube.com.
+youtube-ui.l.google.com.
+216.58.219.238
+Iteration number:10,Time taken to resolve DNS for: www.Youtube.com. : 4ms
+DNS Resolved for :www.Baidu.com.
+www.a.shifen.com.
+103.235.46.39
+Iteration number:1,Time taken to resolve DNS for: www.Baidu.com. : 32ms
+DNS Resolved for :www.Baidu.com.
+www.a.shifen.com.
+103.235.46.39
+Iteration number:2,Time taken to resolve DNS for: www.Baidu.com. : 4ms
+DNS Resolved for :www.Baidu.com.
+www.a.shifen.com.
+103.235.46.39
+Iteration number:3,Time taken to resolve DNS for: www.Baidu.com. : 4ms
+DNS Resolved for :www.Baidu.com.
+www.a.shifen.com.
+103.235.46.39
+Iteration number:4,Time taken to resolve DNS for: www.Baidu.com. : 5ms
+DNS Resolved for :www.Baidu.com.
+www.a.shifen.com.
+103.235.46.39
+Iteration number:5,Time taken to resolve DNS for: www.Baidu.com. : 8ms
+DNS Resolved for :www.Baidu.com.
+www.a.shifen.com.
+103.235.46.39
+Iteration number:6,Time taken to resolve DNS for: www.Baidu.com. : 3ms
+DNS Resolved for :www.Baidu.com.
+www.a.shifen.com.
+103.235.46.39
+Iteration number:7,Time taken to resolve DNS for: www.Baidu.com. : 4ms
+DNS Resolved for :www.Baidu.com.
+www.a.shifen.com.
+103.235.46.39
+Iteration number:8,Time taken to resolve DNS for: www.Baidu.com. : 4ms
+DNS Resolved for :www.Baidu.com.
+www.a.shifen.com.
+103.235.46.39
+Iteration number:9,Time taken to resolve DNS for: www.Baidu.com. : 5ms
+DNS Resolved for :www.Baidu.com.
+www.a.shifen.com.
+103.235.46.39
+Iteration number:10,Time taken to resolve DNS for: www.Baidu.com. : 5ms
+DNS Resolved for :www.Yahoo.com.
+fd-fp3.wg1.b.Yahoo.com.
+98.139.180.149
+98.139.183.24
+Iteration number:1,Time taken to resolve DNS for: www.Yahoo.com. : 37ms
+DNS Resolved for :www.Yahoo.com.
+fd-fp3.wg1.b.Yahoo.com.
+98.139.183.24
+98.139.180.149
+Iteration number:2,Time taken to resolve DNS for: www.Yahoo.com. : 4ms
+DNS Resolved for :www.Yahoo.com.
+fd-fp3.wg1.b.Yahoo.com.
+98.139.180.149
+98.139.183.24
+Iteration number:3,Time taken to resolve DNS for: www.Yahoo.com. : 5ms
+DNS Resolved for :www.Yahoo.com.
+fd-fp3.wg1.b.Yahoo.com.
+98.139.183.24
+98.139.180.149
+Iteration number:4,Time taken to resolve DNS for: www.Yahoo.com. : 6ms
+DNS Resolved for :www.Yahoo.com.
+fd-fp3.wg1.b.Yahoo.com.
+98.139.180.149
+98.139.183.24
+Iteration number:5,Time taken to resolve DNS for: www.Yahoo.com. : 3ms
+DNS Resolved for :www.Yahoo.com.
+fd-fp3.wg1.b.Yahoo.com.
+98.139.183.24
+98.139.180.149
+Iteration number:6,Time taken to resolve DNS for: www.Yahoo.com. : 5ms
+DNS Resolved for :www.Yahoo.com.
+fd-fp3.wg1.b.Yahoo.com.
+98.139.180.149
+98.139.183.24
+Iteration number:7,Time taken to resolve DNS for: www.Yahoo.com. : 4ms
+DNS Resolved for :www.Yahoo.com.
+fd-fp3.wg1.b.Yahoo.com.
+98.139.183.24
+98.139.180.149
+Iteration number:8,Time taken to resolve DNS for: www.Yahoo.com. : 6ms
+DNS Resolved for :www.Yahoo.com.
+fd-fp3.wg1.b.Yahoo.com.
+98.139.180.149
+98.139.183.24
+Iteration number:9,Time taken to resolve DNS for: www.Yahoo.com. : 5ms
+DNS Resolved for :www.Yahoo.com.
+fd-fp3.wg1.b.Yahoo.com.
+98.139.183.24
+98.139.180.149
+Iteration number:10,Time taken to resolve DNS for: www.Yahoo.com. : 6ms
+DNS Resolved for :www.Amazon.com.
+54.239.25.208
+Iteration number:1,Time taken to resolve DNS for: www.Amazon.com. : 38ms
+DNS Resolved for :www.Amazon.com.
+54.239.25.208
+Iteration number:2,Time taken to resolve DNS for: www.Amazon.com. : 5ms
+DNS Resolved for :www.Amazon.com.
+54.239.25.208
+Iteration number:3,Time taken to resolve DNS for: www.Amazon.com. : 6ms
+DNS Resolved for :www.Amazon.com.
+54.239.25.208
+Iteration number:4,Time taken to resolve DNS for: www.Amazon.com. : 3ms
+DNS Resolved for :www.Amazon.com.
+54.239.25.208
+Iteration number:5,Time taken to resolve DNS for: www.Amazon.com. : 5ms
+DNS Resolved for :www.Amazon.com.
+54.239.25.208
+Iteration number:6,Time taken to resolve DNS for: www.Amazon.com. : 6ms
+DNS Resolved for :www.Amazon.com.
+54.239.25.208
+Iteration number:7,Time taken to resolve DNS for: www.Amazon.com. : 4ms
+DNS Resolved for :www.Amazon.com.
+54.239.25.208
+Iteration number:8,Time taken to resolve DNS for: www.Amazon.com. : 4ms
+DNS Resolved for :www.Amazon.com.
+54.239.25.208
+Iteration number:9,Time taken to resolve DNS for: www.Amazon.com. : 3ms
+DNS Resolved for :www.Amazon.com.
+54.239.25.208
+Iteration number:10,Time taken to resolve DNS for: www.Amazon.com. : 5ms
+DNS Resolved for :www.Wikipedia.org.
+208.80.154.224
+Iteration number:1,Time taken to resolve DNS for: www.Wikipedia.org. : 6ms
+DNS Resolved for :www.Wikipedia.org.
+208.80.154.224
+Iteration number:2,Time taken to resolve DNS for: www.Wikipedia.org. : 3ms
+DNS Resolved for :www.Wikipedia.org.
+208.80.154.224
+Iteration number:3,Time taken to resolve DNS for: www.Wikipedia.org. : 5ms
+DNS Resolved for :www.Wikipedia.org.
+208.80.154.224
+Iteration number:4,Time taken to resolve DNS for: www.Wikipedia.org. : 3ms
+DNS Resolved for :www.Wikipedia.org.
+208.80.154.224
+Iteration number:5,Time taken to resolve DNS for: www.Wikipedia.org. : 4ms
+DNS Resolved for :www.Wikipedia.org.
+208.80.154.224
+Iteration number:6,Time taken to resolve DNS for: www.Wikipedia.org. : 6ms
+DNS Resolved for :www.Wikipedia.org.
+208.80.154.224
+Iteration number:7,Time taken to resolve DNS for: www.Wikipedia.org. : 4ms
+DNS Resolved for :www.Wikipedia.org.
+208.80.154.224
+Iteration number:8,Time taken to resolve DNS for: www.Wikipedia.org. : 4ms
+DNS Resolved for :www.Wikipedia.org.
+208.80.154.224
+Iteration number:9,Time taken to resolve DNS for: www.Wikipedia.org. : 3ms
+DNS Resolved for :www.Wikipedia.org.
+208.80.154.224
+Iteration number:10,Time taken to resolve DNS for: www.Wikipedia.org. : 3ms
+DNS Resolved for :www.Qq.com.
+qq.com.edgesuite.net.
+a1574.b.akamai.net.
+207.86.164.89
+207.86.164.112
+Iteration number:1,Time taken to resolve DNS for: www.Qq.com. : 34ms
+DNS Resolved for :www.Qq.com.
+qq.com.edgesuite.net.
+a1574.b.akamai.net.
+207.86.164.112
+207.86.164.89
+Iteration number:2,Time taken to resolve DNS for: www.Qq.com. : 4ms
+DNS Resolved for :www.Qq.com.
+qq.com.edgesuite.net.
+a1574.b.akamai.net.
+207.86.164.89
+207.86.164.112
+Iteration number:3,Time taken to resolve DNS for: www.Qq.com. : 6ms
+DNS Resolved for :www.Qq.com.
+qq.com.edgesuite.net.
+a1574.b.akamai.net.
+207.86.164.112
+207.86.164.89
+Iteration number:4,Time taken to resolve DNS for: www.Qq.com. : 4ms
+DNS Resolved for :www.Qq.com.
+qq.com.edgesuite.net.
+a1574.b.akamai.net.
+207.86.164.89
+207.86.164.112
+Iteration number:5,Time taken to resolve DNS for: www.Qq.com. : 3ms
+DNS Resolved for :www.Qq.com.
+qq.com.edgesuite.net.
+a1574.b.akamai.net.
+207.86.164.112
+207.86.164.89
+Iteration number:6,Time taken to resolve DNS for: www.Qq.com. : 5ms
+DNS Resolved for :www.Qq.com.
+qq.com.edgesuite.net.
+a1574.b.akamai.net.
+207.86.164.89
+207.86.164.112
+Iteration number:7,Time taken to resolve DNS for: www.Qq.com. : 4ms
+DNS Resolved for :www.Qq.com.
+qq.com.edgesuite.net.
+a1574.b.akamai.net.
+207.86.164.112
+207.86.164.89
+Iteration number:8,Time taken to resolve DNS for: www.Qq.com. : 4ms
+DNS Resolved for :www.Qq.com.
+qq.com.edgesuite.net.
+a1574.b.akamai.net.
+207.86.164.89
+207.86.164.112
+Iteration number:9,Time taken to resolve DNS for: www.Qq.com. : 4ms
+DNS Resolved for :www.Qq.com.
+qq.com.edgesuite.net.
+a1574.b.akamai.net.
+207.86.164.112
+207.86.164.89
+Iteration number:10,Time taken to resolve DNS for: www.Qq.com. : 5ms
+DNS Resolved for :www.Google.co.in.
+74.125.226.151
+74.125.226.152
+74.125.226.159
+74.125.226.143
+Iteration number:1,Time taken to resolve DNS for: www.Google.co.in. : 49ms
+DNS Resolved for :www.Google.co.in.
+74.125.226.143
+74.125.226.159
+74.125.226.152
+74.125.226.151
+Iteration number:2,Time taken to resolve DNS for: www.Google.co.in. : 5ms
+DNS Resolved for :www.Google.co.in.
+74.125.226.151
+74.125.226.143
+74.125.226.159
+74.125.226.152
+Iteration number:3,Time taken to resolve DNS for: www.Google.co.in. : 5ms
+DNS Resolved for :www.Google.co.in.
+74.125.226.152
+74.125.226.151
+74.125.226.143
+74.125.226.159
+Iteration number:4,Time taken to resolve DNS for: www.Google.co.in. : 4ms
+DNS Resolved for :www.Google.co.in.
+74.125.226.159
+74.125.226.152
+74.125.226.151
+74.125.226.143
+Iteration number:5,Time taken to resolve DNS for: www.Google.co.in. : 4ms
+DNS Resolved for :www.Google.co.in.
+74.125.226.143
+74.125.226.159
+74.125.226.152
+74.125.226.151
+Iteration number:6,Time taken to resolve DNS for: www.Google.co.in. : 7ms
+DNS Resolved for :www.Google.co.in.
+74.125.226.151
+74.125.226.143
+74.125.226.159
+74.125.226.152
+Iteration number:7,Time taken to resolve DNS for: www.Google.co.in. : 4ms
+DNS Resolved for :www.Google.co.in.
+74.125.226.152
+74.125.226.151
+74.125.226.143
+74.125.226.159
+Iteration number:8,Time taken to resolve DNS for: www.Google.co.in. : 5ms
+DNS Resolved for :www.Google.co.in.
+74.125.226.159
+74.125.226.152
+74.125.226.151
+74.125.226.143
+Iteration number:9,Time taken to resolve DNS for: www.Google.co.in. : 4ms
+DNS Resolved for :www.Google.co.in.
+74.125.226.143
+74.125.226.159
+74.125.226.152
+74.125.226.151
+Iteration number:10,Time taken to resolve DNS for: www.Google.co.in. : 4ms
+DNS Resolved for :www.Twitter.com.
+Twitter.com.
+199.16.156.70
+199.16.156.6
+199.16.156.102
+199.16.156.198
+Iteration number:1,Time taken to resolve DNS for: www.Twitter.com. : 28ms
+DNS Resolved for :www.Twitter.com.
+Twitter.com.
+199.16.156.198
+199.16.156.102
+199.16.156.6
+199.16.156.70
+Iteration number:2,Time taken to resolve DNS for: www.Twitter.com. : 4ms
+DNS Resolved for :www.Twitter.com.
+Twitter.com.
+199.16.156.70
+199.16.156.198
+199.16.156.102
+199.16.156.6
+Iteration number:3,Time taken to resolve DNS for: www.Twitter.com. : 4ms
+DNS Resolved for :www.Twitter.com.
+Twitter.com.
+199.16.156.6
+199.16.156.70
+199.16.156.198
+199.16.156.102
+Iteration number:4,Time taken to resolve DNS for: www.Twitter.com. : 5ms
+DNS Resolved for :www.Twitter.com.
+Twitter.com.
+199.16.156.102
+199.16.156.6
+199.16.156.70
+199.16.156.198
+Iteration number:5,Time taken to resolve DNS for: www.Twitter.com. : 4ms
+DNS Resolved for :www.Twitter.com.
+Twitter.com.
+199.16.156.198
+199.16.156.102
+199.16.156.6
+199.16.156.70
+Iteration number:6,Time taken to resolve DNS for: www.Twitter.com. : 5ms
+DNS Resolved for :www.Twitter.com.
+Twitter.com.
+199.16.156.70
+199.16.156.198
+199.16.156.102
+199.16.156.6
+Iteration number:7,Time taken to resolve DNS for: www.Twitter.com. : 4ms
+DNS Resolved for :www.Twitter.com.
+Twitter.com.
+199.16.156.6
+199.16.156.70
+199.16.156.198
+199.16.156.102
+Iteration number:8,Time taken to resolve DNS for: www.Twitter.com. : 6ms
+DNS Resolved for :www.Twitter.com.
+Twitter.com.
+199.16.156.102
+199.16.156.6
+199.16.156.70
+199.16.156.198
+Iteration number:9,Time taken to resolve DNS for: www.Twitter.com. : 4ms
+DNS Resolved for :www.Twitter.com.
+Twitter.com.
+199.16.156.198
+199.16.156.102
+199.16.156.6
+199.16.156.70
+Iteration number:10,Time taken to resolve DNS for: www.Twitter.com. : 6ms
+DNS Resolved for :www.Live.com.
+mail.Live.com.
+dispatch.kahuna.glbdns2.microsoft.com.
+65.55.183.60
+65.55.183.92
+Iteration number:1,Time taken to resolve DNS for: www.Live.com. : 3ms
+DNS Resolved for :www.Live.com.
+mail.Live.com.
+dispatch.kahuna.glbdns2.microsoft.com.
+65.55.183.92
+65.55.183.60
+Iteration number:2,Time taken to resolve DNS for: www.Live.com. : 6ms
+DNS Resolved for :www.Live.com.
+mail.Live.com.
+dispatch.kahuna.glbdns2.microsoft.com.
+65.55.183.60
+65.55.183.92
+Iteration number:3,Time taken to resolve DNS for: www.Live.com. : 3ms
+DNS Resolved for :www.Live.com.
+mail.Live.com.
+dispatch.kahuna.glbdns2.microsoft.com.
+65.55.183.92
+65.55.183.60
+Iteration number:4,Time taken to resolve DNS for: www.Live.com. : 4ms
+DNS Resolved for :www.Live.com.
+mail.Live.com.
+dispatch.kahuna.glbdns2.microsoft.com.
+65.55.183.60
+65.55.183.92
+Iteration number:5,Time taken to resolve DNS for: www.Live.com. : 3ms
+DNS Resolved for :www.Live.com.
+mail.Live.com.
+dispatch.kahuna.glbdns2.microsoft.com.
+65.55.183.92
+65.55.183.60
+Iteration number:6,Time taken to resolve DNS for: www.Live.com. : 3ms
+DNS Resolved for :www.Live.com.
+mail.Live.com.
+dispatch.kahuna.glbdns2.microsoft.com.
+65.55.183.60
+65.55.183.92
+Iteration number:7,Time taken to resolve DNS for: www.Live.com. : 3ms
+DNS Resolved for :www.Live.com.
+mail.Live.com.
+dispatch.kahuna.glbdns2.microsoft.com.
+65.55.183.92
+65.55.183.60
+Iteration number:8,Time taken to resolve DNS for: www.Live.com. : 3ms
+DNS Resolved for :www.Live.com.
+mail.Live.com.
+dispatch.kahuna.glbdns2.microsoft.com.
+65.55.183.60
+65.55.183.92
+Iteration number:9,Time taken to resolve DNS for: www.Live.com. : 3ms
+DNS Resolved for :www.Live.com.
+mail.Live.com.
+dispatch.kahuna.glbdns2.microsoft.com.
+65.55.183.92
+65.55.183.60
+Iteration number:10,Time taken to resolve DNS for: www.Live.com. : 3ms
+DNS Resolved for :www.Taobao.com.
+www.taobao.com.danuoyi.tbcache.com.
+66.198.178.122
+Iteration number:1,Time taken to resolve DNS for: www.Taobao.com. : 36ms
+DNS Resolved for :www.Taobao.com.
+www.taobao.com.danuoyi.tbcache.com.
+66.198.178.122
+Iteration number:2,Time taken to resolve DNS for: www.Taobao.com. : 4ms
+DNS Resolved for :www.Taobao.com.
+www.taobao.com.danuoyi.tbcache.com.
+66.198.178.122
+Iteration number:3,Time taken to resolve DNS for: www.Taobao.com. : 4ms
+DNS Resolved for :www.Taobao.com.
+www.taobao.com.danuoyi.tbcache.com.
+66.198.178.122
+Iteration number:4,Time taken to resolve DNS for: www.Taobao.com. : 5ms
+DNS Resolved for :www.Taobao.com.
+www.taobao.com.danuoyi.tbcache.com.
+66.198.178.122
+Iteration number:5,Time taken to resolve DNS for: www.Taobao.com. : 4ms
+DNS Resolved for :www.Taobao.com.
+www.taobao.com.danuoyi.tbcache.com.
+66.198.178.122
+Iteration number:6,Time taken to resolve DNS for: www.Taobao.com. : 5ms
+DNS Resolved for :www.Taobao.com.
+www.taobao.com.danuoyi.tbcache.com.
+66.198.178.122
+Iteration number:7,Time taken to resolve DNS for: www.Taobao.com. : 3ms
+DNS Resolved for :www.Taobao.com.
+www.taobao.com.danuoyi.tbcache.com.
+66.198.178.122
+Iteration number:8,Time taken to resolve DNS for: www.Taobao.com. : 3ms
+DNS Resolved for :www.Taobao.com.
+www.taobao.com.danuoyi.tbcache.com.
+66.198.178.122
+Iteration number:9,Time taken to resolve DNS for: www.Taobao.com. : 3ms
+DNS Resolved for :www.Taobao.com.
+www.taobao.com.danuoyi.tbcache.com.
+66.198.178.122
+Iteration number:10,Time taken to resolve DNS for: www.Taobao.com. : 3ms
+DNS Resolved for :www.Sina.com.cn.
+jupiter.Sina.com.cn.
+region.sina.csglb.txcdn.cn.
+g2.panthercdn.com.
+174.35.75.71
+174.35.73.102
+Iteration number:1,Time taken to resolve DNS for: www.Sina.com.cn. : 38ms
+DNS Resolved for :www.Sina.com.cn.
+jupiter.Sina.com.cn.
+region.sina.csglb.txcdn.cn.
+g2.panthercdn.com.
+174.35.73.102
+174.35.75.71
+Iteration number:2,Time taken to resolve DNS for: www.Sina.com.cn. : 7ms
+DNS Resolved for :www.Sina.com.cn.
+jupiter.Sina.com.cn.
+region.sina.csglb.txcdn.cn.
+g2.panthercdn.com.
+174.35.75.71
+174.35.73.102
+Iteration number:3,Time taken to resolve DNS for: www.Sina.com.cn. : 7ms
+DNS Resolved for :www.Sina.com.cn.
+jupiter.Sina.com.cn.
+region.sina.csglb.txcdn.cn.
+g2.panthercdn.com.
+174.35.73.102
+174.35.75.71
+Iteration number:4,Time taken to resolve DNS for: www.Sina.com.cn. : 4ms
+DNS Resolved for :www.Sina.com.cn.
+jupiter.Sina.com.cn.
+region.sina.csglb.txcdn.cn.
+g2.panthercdn.com.
+174.35.75.71
+174.35.73.102
+Iteration number:5,Time taken to resolve DNS for: www.Sina.com.cn. : 3ms
+DNS Resolved for :www.Sina.com.cn.
+jupiter.Sina.com.cn.
+region.sina.csglb.txcdn.cn.
+g2.panthercdn.com.
+174.35.73.102
+174.35.75.71
+Iteration number:6,Time taken to resolve DNS for: www.Sina.com.cn. : 2ms
+DNS Resolved for :www.Sina.com.cn.
+jupiter.Sina.com.cn.
+region.sina.csglb.txcdn.cn.
+g2.panthercdn.com.
+174.35.75.71
+174.35.73.102
+Iteration number:7,Time taken to resolve DNS for: www.Sina.com.cn. : 3ms
+DNS Resolved for :www.Sina.com.cn.
+jupiter.Sina.com.cn.
+region.sina.csglb.txcdn.cn.
+g2.panthercdn.com.
+174.35.73.102
+174.35.75.71
+Iteration number:8,Time taken to resolve DNS for: www.Sina.com.cn. : 4ms
+DNS Resolved for :www.Sina.com.cn.
+jupiter.Sina.com.cn.
+region.sina.csglb.txcdn.cn.
+g2.panthercdn.com.
+174.35.75.71
+174.35.73.102
+Iteration number:9,Time taken to resolve DNS for: www.Sina.com.cn. : 3ms
+DNS Resolved for :www.Sina.com.cn.
+jupiter.Sina.com.cn.
+region.sina.csglb.txcdn.cn.
+g2.panthercdn.com.
+174.35.73.102
+174.35.75.71
+Iteration number:10,Time taken to resolve DNS for: www.Sina.com.cn. : 4ms
+DNS Resolved for :www.Msn.com.
+www-msn-com.a-0003.a-msedge.net.
+a-0003.a-msedge.net.
+204.79.197.203
+Iteration number:1,Time taken to resolve DNS for: www.Msn.com. : 30ms
+DNS Resolved for :www.Msn.com.
+www-msn-com.a-0003.a-msedge.net.
+a-0003.a-msedge.net.
+204.79.197.203
+Iteration number:2,Time taken to resolve DNS for: www.Msn.com. : 3ms
+DNS Resolved for :www.Msn.com.
+www-msn-com.a-0003.a-msedge.net.
+a-0003.a-msedge.net.
+204.79.197.203
+Iteration number:3,Time taken to resolve DNS for: www.Msn.com. : 4ms
+DNS Resolved for :www.Msn.com.
+www-msn-com.a-0003.a-msedge.net.
+a-0003.a-msedge.net.
+204.79.197.203
+Iteration number:4,Time taken to resolve DNS for: www.Msn.com. : 6ms
+DNS Resolved for :www.Msn.com.
+www-msn-com.a-0003.a-msedge.net.
+a-0003.a-msedge.net.
+204.79.197.203
+Iteration number:5,Time taken to resolve DNS for: www.Msn.com. : 3ms
+DNS Resolved for :www.Msn.com.
+www-msn-com.a-0003.a-msedge.net.
+a-0003.a-msedge.net.
+204.79.197.203
+Iteration number:6,Time taken to resolve DNS for: www.Msn.com. : 4ms
+DNS Resolved for :www.Msn.com.
+www-msn-com.a-0003.a-msedge.net.
+a-0003.a-msedge.net.
+204.79.197.203
+Iteration number:7,Time taken to resolve DNS for: www.Msn.com. : 4ms
+DNS Resolved for :www.Msn.com.
+www-msn-com.a-0003.a-msedge.net.
+a-0003.a-msedge.net.
+204.79.197.203
+Iteration number:8,Time taken to resolve DNS for: www.Msn.com. : 3ms
+DNS Resolved for :www.Msn.com.
+www-msn-com.a-0003.a-msedge.net.
+a-0003.a-msedge.net.
+204.79.197.203
+Iteration number:9,Time taken to resolve DNS for: www.Msn.com. : 4ms
+DNS Resolved for :www.Msn.com.
+www-msn-com.a-0003.a-msedge.net.
+a-0003.a-msedge.net.
+204.79.197.203
+Iteration number:10,Time taken to resolve DNS for: www.Msn.com. : 4ms
+DNS Resolved for :www.Yahoo.co.jp.
+www.g.Yahoo.co.jp.
+183.79.23.158
+183.79.71.173
+183.79.197.242
+183.79.198.240
+Iteration number:1,Time taken to resolve DNS for: www.Yahoo.co.jp. : 694ms
+DNS Resolved for :www.Yahoo.co.jp.
+www.g.Yahoo.co.jp.
+183.79.198.240
+183.79.197.242
+183.79.71.173
+183.79.23.158
+Iteration number:2,Time taken to resolve DNS for: www.Yahoo.co.jp. : 4ms
+DNS Resolved for :www.Yahoo.co.jp.
+www.g.Yahoo.co.jp.
+183.79.23.158
+183.79.198.240
+183.79.197.242
+183.79.71.173
+Iteration number:3,Time taken to resolve DNS for: www.Yahoo.co.jp. : 5ms
+DNS Resolved for :www.Yahoo.co.jp.
+www.g.Yahoo.co.jp.
+183.79.71.173
+183.79.23.158
+183.79.198.240
+183.79.197.242
+Iteration number:4,Time taken to resolve DNS for: www.Yahoo.co.jp. : 5ms
+DNS Resolved for :www.Yahoo.co.jp.
+www.g.Yahoo.co.jp.
+183.79.197.242
+183.79.71.173
+183.79.23.158
+183.79.198.240
+Iteration number:5,Time taken to resolve DNS for: www.Yahoo.co.jp. : 4ms
+DNS Resolved for :www.Yahoo.co.jp.
+www.g.Yahoo.co.jp.
+183.79.198.240
+183.79.197.242
+183.79.71.173
+183.79.23.158
+Iteration number:6,Time taken to resolve DNS for: www.Yahoo.co.jp. : 4ms
+DNS Resolved for :www.Yahoo.co.jp.
+www.g.Yahoo.co.jp.
+183.79.23.158
+183.79.198.240
+183.79.197.242
+183.79.71.173
+Iteration number:7,Time taken to resolve DNS for: www.Yahoo.co.jp. : 7ms
+DNS Resolved for :www.Yahoo.co.jp.
+www.g.Yahoo.co.jp.
+183.79.71.173
+183.79.23.158
+183.79.198.240
+183.79.197.242
+Iteration number:8,Time taken to resolve DNS for: www.Yahoo.co.jp. : 5ms
+DNS Resolved for :www.Yahoo.co.jp.
+www.g.Yahoo.co.jp.
+183.79.197.242
+183.79.71.173
+183.79.23.158
+183.79.198.240
+Iteration number:9,Time taken to resolve DNS for: www.Yahoo.co.jp. : 7ms
+DNS Resolved for :www.Yahoo.co.jp.
+www.g.Yahoo.co.jp.
+183.79.198.240
+183.79.197.242
+183.79.71.173
+183.79.23.158
+Iteration number:10,Time taken to resolve DNS for: www.Yahoo.co.jp. : 4ms
+DNS Resolved for :www.Linkedin.com.
+any-na.www.Linkedin.com.
+108.174.10.10
+Iteration number:1,Time taken to resolve DNS for: www.Linkedin.com. : 4ms
+DNS Resolved for :www.Linkedin.com.
+any-na.www.Linkedin.com.
+108.174.10.10
+Iteration number:2,Time taken to resolve DNS for: www.Linkedin.com. : 3ms
+DNS Resolved for :www.Linkedin.com.
+any-na.www.Linkedin.com.
+108.174.10.10
+Iteration number:3,Time taken to resolve DNS for: www.Linkedin.com. : 4ms
+DNS Resolved for :www.Linkedin.com.
+any-na.www.Linkedin.com.
+108.174.10.10
+Iteration number:4,Time taken to resolve DNS for: www.Linkedin.com. : 5ms
+DNS Resolved for :www.Linkedin.com.
+any-na.www.Linkedin.com.
+108.174.10.10
+Iteration number:5,Time taken to resolve DNS for: www.Linkedin.com. : 3ms
+DNS Resolved for :www.Linkedin.com.
+any-na.www.Linkedin.com.
+108.174.10.10
+Iteration number:6,Time taken to resolve DNS for: www.Linkedin.com. : 5ms
+DNS Resolved for :www.Linkedin.com.
+any-na.www.Linkedin.com.
+108.174.10.10
+Iteration number:7,Time taken to resolve DNS for: www.Linkedin.com. : 5ms
+DNS Resolved for :www.Linkedin.com.
+any-na.www.Linkedin.com.
+108.174.10.10
+Iteration number:8,Time taken to resolve DNS for: www.Linkedin.com. : 4ms
+DNS Resolved for :www.Linkedin.com.
+any-na.www.Linkedin.com.
+108.174.10.10
+Iteration number:9,Time taken to resolve DNS for: www.Linkedin.com. : 2ms
+DNS Resolved for :www.Linkedin.com.
+any-na.www.Linkedin.com.
+108.174.10.10
+Iteration number:10,Time taken to resolve DNS for: www.Linkedin.com. : 4ms
+DNS Resolved for :www.Weibo.com.
+180.149.134.141
+Iteration number:1,Time taken to resolve DNS for: www.Weibo.com. : 1143ms
+DNS Resolved for :www.Weibo.com.
+180.149.134.141
+Iteration number:2,Time taken to resolve DNS for: www.Weibo.com. : 5ms
+DNS Resolved for :www.Weibo.com.
+180.149.134.141
+Iteration number:3,Time taken to resolve DNS for: www.Weibo.com. : 4ms
+DNS Resolved for :www.Weibo.com.
+180.149.134.141
+Iteration number:4,Time taken to resolve DNS for: www.Weibo.com. : 3ms
+DNS Resolved for :www.Weibo.com.
+180.149.134.141
+Iteration number:5,Time taken to resolve DNS for: www.Weibo.com. : 3ms
+DNS Resolved for :www.Weibo.com.
+180.149.134.141
+Iteration number:6,Time taken to resolve DNS for: www.Weibo.com. : 4ms
+DNS Resolved for :www.Weibo.com.
+180.149.134.141
+Iteration number:7,Time taken to resolve DNS for: www.Weibo.com. : 3ms
+DNS Resolved for :www.Weibo.com.
+180.149.134.141
+Iteration number:8,Time taken to resolve DNS for: www.Weibo.com. : 5ms
+DNS Resolved for :www.Weibo.com.
+180.149.134.141
+Iteration number:9,Time taken to resolve DNS for: www.Weibo.com. : 3ms
+DNS Resolved for :www.Weibo.com.
+180.149.134.141
+Iteration number:10,Time taken to resolve DNS for: www.Weibo.com. : 4ms
+DNS Resolved for :www.Google.co.jp.
+74.125.226.152
+74.125.226.151
+74.125.226.159
+74.125.226.143
+Iteration number:1,Time taken to resolve DNS for: www.Google.co.jp. : 6ms
+DNS Resolved for :www.Google.co.jp.
+74.125.226.143
+74.125.226.152
+74.125.226.151
+74.125.226.159
+Iteration number:2,Time taken to resolve DNS for: www.Google.co.jp. : 5ms
+DNS Resolved for :www.Google.co.jp.
+74.125.226.159
+74.125.226.143
+74.125.226.152
+74.125.226.151
+Iteration number:3,Time taken to resolve DNS for: www.Google.co.jp. : 3ms
+DNS Resolved for :www.Google.co.jp.
+74.125.226.151
+74.125.226.159
+74.125.226.143
+74.125.226.152
+Iteration number:4,Time taken to resolve DNS for: www.Google.co.jp. : 4ms
+DNS Resolved for :www.Google.co.jp.
+74.125.226.152
+74.125.226.151
+74.125.226.159
+74.125.226.143
+Iteration number:5,Time taken to resolve DNS for: www.Google.co.jp. : 4ms
+DNS Resolved for :www.Google.co.jp.
+74.125.226.143
+74.125.226.152
+74.125.226.151
+74.125.226.159
+Iteration number:6,Time taken to resolve DNS for: www.Google.co.jp. : 3ms
+DNS Resolved for :www.Google.co.jp.
+74.125.226.159
+74.125.226.143
+74.125.226.152
+74.125.226.151
+Iteration number:7,Time taken to resolve DNS for: www.Google.co.jp. : 4ms
+DNS Resolved for :www.Google.co.jp.
+74.125.226.151
+74.125.226.159
+74.125.226.143
+74.125.226.152
+Iteration number:8,Time taken to resolve DNS for: www.Google.co.jp. : 3ms
+DNS Resolved for :www.Google.co.jp.
+74.125.226.152
+74.125.226.151
+74.125.226.159
+74.125.226.143
+Iteration number:9,Time taken to resolve DNS for: www.Google.co.jp. : 5ms
+DNS Resolved for :www.Google.co.jp.
+74.125.226.143
+74.125.226.152
+74.125.226.151
+74.125.226.159
+Iteration number:10,Time taken to resolve DNS for: www.Google.co.jp. : 6ms
+DNS Resolved for :www.Vk.com.
+87.240.131.119
+87.240.131.120
+87.240.131.97
+Iteration number:1,Time taken to resolve DNS for: www.Vk.com. : 168ms
+DNS Resolved for :www.Vk.com.
+87.240.131.97
+87.240.131.120
+87.240.131.119
+Iteration number:2,Time taken to resolve DNS for: www.Vk.com. : 4ms
+DNS Resolved for :www.Vk.com.
+87.240.131.119
+87.240.131.97
+87.240.131.120
+Iteration number:3,Time taken to resolve DNS for: www.Vk.com. : 5ms
+DNS Resolved for :www.Vk.com.
+87.240.131.120
+87.240.131.119
+87.240.131.97
+Iteration number:4,Time taken to resolve DNS for: www.Vk.com. : 4ms
+DNS Resolved for :www.Vk.com.
+87.240.131.97
+87.240.131.120
+87.240.131.119
+Iteration number:5,Time taken to resolve DNS for: www.Vk.com. : 3ms
+DNS Resolved for :www.Vk.com.
+87.240.131.119
+87.240.131.97
+87.240.131.120
+Iteration number:6,Time taken to resolve DNS for: www.Vk.com. : 3ms
+DNS Resolved for :www.Vk.com.
+87.240.131.120
+87.240.131.119
+87.240.131.97
+Iteration number:7,Time taken to resolve DNS for: www.Vk.com. : 4ms
+DNS Resolved for :www.Vk.com.
+87.240.131.97
+87.240.131.120
+87.240.131.119
+Iteration number:8,Time taken to resolve DNS for: www.Vk.com. : 3ms
+DNS Resolved for :www.Vk.com.
+87.240.131.119
+87.240.131.97
+87.240.131.120
+Iteration number:9,Time taken to resolve DNS for: www.Vk.com. : 5ms
+DNS Resolved for :www.Vk.com.
+87.240.131.120
+87.240.131.119
+87.240.131.97
+Iteration number:10,Time taken to resolve DNS for: www.Vk.com. : 5ms
+DNS Resolved for :www.Bing.com.
+any.edge.Bing.com.
+204.79.197.200
+Iteration number:1,Time taken to resolve DNS for: www.Bing.com. : 34ms
+DNS Resolved for :www.Bing.com.
+any.edge.Bing.com.
+204.79.197.200
+Iteration number:2,Time taken to resolve DNS for: www.Bing.com. : 4ms
+DNS Resolved for :www.Bing.com.
+any.edge.Bing.com.
+204.79.197.200
+Iteration number:3,Time taken to resolve DNS for: www.Bing.com. : 4ms
+DNS Resolved for :www.Bing.com.
+any.edge.Bing.com.
+204.79.197.200
+Iteration number:4,Time taken to resolve DNS for: www.Bing.com. : 4ms
+DNS Resolved for :www.Bing.com.
+any.edge.Bing.com.
+204.79.197.200
+Iteration number:5,Time taken to resolve DNS for: www.Bing.com. : 4ms
+DNS Resolved for :www.Bing.com.
+any.edge.Bing.com.
+204.79.197.200
+Iteration number:6,Time taken to resolve DNS for: www.Bing.com. : 7ms
+DNS Resolved for :www.Bing.com.
+any.edge.Bing.com.
+204.79.197.200
+Iteration number:7,Time taken to resolve DNS for: www.Bing.com. : 4ms
+DNS Resolved for :www.Bing.com.
+any.edge.Bing.com.
+204.79.197.200
+Iteration number:8,Time taken to resolve DNS for: www.Bing.com. : 6ms
+DNS Resolved for :www.Bing.com.
+any.edge.Bing.com.
+204.79.197.200
+Iteration number:9,Time taken to resolve DNS for: www.Bing.com. : 3ms
+DNS Resolved for :www.Bing.com.
+any.edge.Bing.com.
+204.79.197.200
+Iteration number:10,Time taken to resolve DNS for: www.Bing.com. : 4ms
+DNS Resolved for :www.Yandex.ru.
+5.255.255.5
+5.255.255.55
+77.88.55.55
+77.88.55.66
+Iteration number:1,Time taken to resolve DNS for: www.Yandex.ru. : 4ms
+DNS Resolved for :www.Yandex.ru.
+77.88.55.66
+5.255.255.5
+5.255.255.55
+77.88.55.55
+Iteration number:2,Time taken to resolve DNS for: www.Yandex.ru. : 6ms
+DNS Resolved for :www.Yandex.ru.
+77.88.55.55
+77.88.55.66
+5.255.255.5
+5.255.255.55
+Iteration number:3,Time taken to resolve DNS for: www.Yandex.ru. : 4ms
+DNS Resolved for :www.Yandex.ru.
+5.255.255.55
+77.88.55.55
+77.88.55.66
+5.255.255.5
+Iteration number:4,Time taken to resolve DNS for: www.Yandex.ru. : 6ms
+DNS Resolved for :www.Yandex.ru.
+5.255.255.5
+5.255.255.55
+77.88.55.55
+77.88.55.66
+Iteration number:5,Time taken to resolve DNS for: www.Yandex.ru. : 6ms
+DNS Resolved for :www.Yandex.ru.
+77.88.55.66
+5.255.255.5
+5.255.255.55
+77.88.55.55
+Iteration number:6,Time taken to resolve DNS for: www.Yandex.ru. : 6ms
+DNS Resolved for :www.Yandex.ru.
+77.88.55.55
+77.88.55.66
+5.255.255.5
+5.255.255.55
+Iteration number:7,Time taken to resolve DNS for: www.Yandex.ru. : 4ms
+DNS Resolved for :www.Yandex.ru.
+5.255.255.55
+77.88.55.55
+77.88.55.66
+5.255.255.5
+Iteration number:8,Time taken to resolve DNS for: www.Yandex.ru. : 5ms
+DNS Resolved for :www.Yandex.ru.
+5.255.255.5
+5.255.255.55
+77.88.55.55
+77.88.55.66
+Iteration number:9,Time taken to resolve DNS for: www.Yandex.ru. : 3ms
+DNS Resolved for :www.Yandex.ru.
+77.88.55.66
+5.255.255.5
+5.255.255.55
+77.88.55.55
+Iteration number:10,Time taken to resolve DNS for: www.Yandex.ru. : 3ms
+DNS Resolved for :www.Hao123.com.
+hao123.n.shifen.com.
+123.125.114.5
+61.135.162.10
+Iteration number:1,Time taken to resolve DNS for: www.Hao123.com. : 3ms
+DNS Resolved for :www.Hao123.com.
+hao123.n.shifen.com.
+61.135.162.10
+123.125.114.5
+Iteration number:2,Time taken to resolve DNS for: www.Hao123.com. : 5ms
+DNS Resolved for :www.Hao123.com.
+hao123.n.shifen.com.
+123.125.114.5
+61.135.162.10
+Iteration number:3,Time taken to resolve DNS for: www.Hao123.com. : 3ms
+DNS Resolved for :www.Hao123.com.
+hao123.n.shifen.com.
+61.135.162.10
+123.125.114.5
+Iteration number:4,Time taken to resolve DNS for: www.Hao123.com. : 2ms
+DNS Resolved for :www.Hao123.com.
+hao123.n.shifen.com.
+123.125.114.5
+61.135.162.10
+Iteration number:5,Time taken to resolve DNS for: www.Hao123.com. : 3ms
+DNS Resolved for :www.Hao123.com.
+hao123.n.shifen.com.
+61.135.162.10
+123.125.114.5
+Iteration number:6,Time taken to resolve DNS for: www.Hao123.com. : 3ms
+DNS Resolved for :www.Hao123.com.
+hao123.n.shifen.com.
+123.125.114.5
+61.135.162.10
+Iteration number:7,Time taken to resolve DNS for: www.Hao123.com. : 3ms
+DNS Resolved for :www.Hao123.com.
+hao123.n.shifen.com.
+61.135.162.10
+123.125.114.5
+Iteration number:8,Time taken to resolve DNS for: www.Hao123.com. : 4ms
+DNS Resolved for :www.Hao123.com.
+hao123.n.shifen.com.
+123.125.114.5
+61.135.162.10
+Iteration number:9,Time taken to resolve DNS for: www.Hao123.com. : 3ms
+DNS Resolved for :www.Hao123.com.
+hao123.n.shifen.com.
+61.135.162.10
+123.125.114.5
+Iteration number:10,Time taken to resolve DNS for: www.Hao123.com. : 4ms
+DNS Resolved for :www.Ebay.com.
+www-us.g.Ebay.com.
+slot9428.ebay.com.edgekey.net.
+e9428.b.akamaiedge.net.
+104.97.75.127
+Iteration number:1,Time taken to resolve DNS for: www.Ebay.com. : 30ms
+DNS Resolved for :www.Ebay.com.
+www-us.g.Ebay.com.
+slot9428.ebay.com.edgekey.net.
+e9428.b.akamaiedge.net.
+104.97.75.127
+Iteration number:2,Time taken to resolve DNS for: www.Ebay.com. : 4ms
+DNS Resolved for :www.Ebay.com.
+www-us.g.Ebay.com.
+slot9428.ebay.com.edgekey.net.
+e9428.b.akamaiedge.net.
+104.97.75.127
+Iteration number:3,Time taken to resolve DNS for: www.Ebay.com. : 3ms
+DNS Resolved for :www.Ebay.com.
+www-us.g.Ebay.com.
+slot9428.ebay.com.edgekey.net.
+e9428.b.akamaiedge.net.
+104.97.75.127
+Iteration number:4,Time taken to resolve DNS for: www.Ebay.com. : 4ms
+DNS Resolved for :www.Ebay.com.
+www-us.g.Ebay.com.
+slot9428.ebay.com.edgekey.net.
+e9428.b.akamaiedge.net.
+104.97.75.127
+Iteration number:5,Time taken to resolve DNS for: www.Ebay.com. : 5ms
+DNS Resolved for :www.Ebay.com.
+www-us.g.Ebay.com.
+slot9428.ebay.com.edgekey.net.
+e9428.b.akamaiedge.net.
+104.97.75.127
+Iteration number:6,Time taken to resolve DNS for: www.Ebay.com. : 5ms
+DNS Resolved for :www.Ebay.com.
+www-us.g.Ebay.com.
+slot9428.ebay.com.edgekey.net.
+e9428.b.akamaiedge.net.
+104.97.75.127
+Iteration number:7,Time taken to resolve DNS for: www.Ebay.com. : 4ms
+DNS Resolved for :www.Ebay.com.
+www-us.g.Ebay.com.
+slot9428.ebay.com.edgekey.net.
+e9428.b.akamaiedge.net.
+104.97.75.127
+Iteration number:8,Time taken to resolve DNS for: www.Ebay.com. : 17ms
+DNS Resolved for :www.Ebay.com.
+www-us.g.Ebay.com.
+slot9428.ebay.com.edgekey.net.
+e9428.b.akamaiedge.net.
+104.97.75.127
+Iteration number:9,Time taken to resolve DNS for: www.Ebay.com. : 4ms
+DNS Resolved for :www.Ebay.com.
+www-us.g.Ebay.com.
+slot9428.ebay.com.edgekey.net.
+e9428.b.akamaiedge.net.
+104.97.75.127
+Iteration number:10,Time taken to resolve DNS for: www.Ebay.com. : 4ms
+DNS Resolved for :www.Instagram.com.
+black.ish.Instagram.com.
+instagram.c10r.facebook.com.
+31.13.74.52
+Iteration number:1,Time taken to resolve DNS for: www.Instagram.com. : 28ms
+DNS Resolved for :www.Instagram.com.
+black.ish.Instagram.com.
+instagram.c10r.facebook.com.
+31.13.74.52
+Iteration number:2,Time taken to resolve DNS for: www.Instagram.com. : 4ms
+DNS Resolved for :www.Instagram.com.
+black.ish.Instagram.com.
+instagram.c10r.facebook.com.
+31.13.74.52
+Iteration number:3,Time taken to resolve DNS for: www.Instagram.com. : 6ms
+DNS Resolved for :www.Instagram.com.
+black.ish.Instagram.com.
+instagram.c10r.facebook.com.
+31.13.74.52
+Iteration number:4,Time taken to resolve DNS for: www.Instagram.com. : 5ms
+DNS Resolved for :www.Instagram.com.
+black.ish.Instagram.com.
+instagram.c10r.facebook.com.
+31.13.74.52
+Iteration number:5,Time taken to resolve DNS for: www.Instagram.com. : 4ms
+DNS Resolved for :www.Instagram.com.
+black.ish.Instagram.com.
+instagram.c10r.facebook.com.
+31.13.74.52
+Iteration number:6,Time taken to resolve DNS for: www.Instagram.com. : 4ms
+DNS Resolved for :www.Instagram.com.
+black.ish.Instagram.com.
+instagram.c10r.facebook.com.
+31.13.74.52
+Iteration number:7,Time taken to resolve DNS for: www.Instagram.com. : 3ms
+DNS Resolved for :www.Instagram.com.
+black.ish.Instagram.com.
+instagram.c10r.facebook.com.
+31.13.74.52
+Iteration number:8,Time taken to resolve DNS for: www.Instagram.com. : 4ms
+DNS Resolved for :www.Instagram.com.
+black.ish.Instagram.com.
+instagram.c10r.facebook.com.
+31.13.74.52
+Iteration number:9,Time taken to resolve DNS for: www.Instagram.com. : 4ms
+DNS Resolved for :www.Instagram.com.
+black.ish.Instagram.com.
+instagram.c10r.facebook.com.
+31.13.74.52
+Iteration number:10,Time taken to resolve DNS for: www.Instagram.com. : 5ms
+DNS Resolved for :www.Google.de.
+173.194.43.87
+173.194.43.79
+173.194.43.95
+173.194.43.88
+Iteration number:1,Time taken to resolve DNS for: www.Google.de. : 31ms
+DNS Resolved for :www.Google.de.
+173.194.43.88
+173.194.43.95
+173.194.43.79
+173.194.43.87
+Iteration number:2,Time taken to resolve DNS for: www.Google.de. : 4ms
+DNS Resolved for :www.Google.de.
+173.194.43.87
+173.194.43.88
+173.194.43.95
+173.194.43.79
+Iteration number:3,Time taken to resolve DNS for: www.Google.de. : 4ms
+DNS Resolved for :www.Google.de.
+173.194.43.79
+173.194.43.87
+173.194.43.88
+173.194.43.95
+Iteration number:4,Time taken to resolve DNS for: www.Google.de. : 4ms
+DNS Resolved for :www.Google.de.
+173.194.43.95
+173.194.43.79
+173.194.43.87
+173.194.43.88
+Iteration number:5,Time taken to resolve DNS for: www.Google.de. : 4ms
+DNS Resolved for :www.Google.de.
+173.194.43.88
+173.194.43.95
+173.194.43.79
+173.194.43.87
+Iteration number:6,Time taken to resolve DNS for: www.Google.de. : 4ms
+DNS Resolved for :www.Google.de.
+173.194.43.87
+173.194.43.88
+173.194.43.95
+173.194.43.79
+Iteration number:7,Time taken to resolve DNS for: www.Google.de. : 5ms
+DNS Resolved for :www.Google.de.
+173.194.43.79
+173.194.43.87
+173.194.43.88
+173.194.43.95
+Iteration number:8,Time taken to resolve DNS for: www.Google.de. : 6ms
+DNS Resolved for :www.Google.de.
+173.194.43.95
+173.194.43.79
+173.194.43.87
+173.194.43.88
+Iteration number:9,Time taken to resolve DNS for: www.Google.de. : 3ms
+DNS Resolved for :www.Google.de.
+173.194.43.88
+173.194.43.95
+173.194.43.79
+173.194.43.87
+Iteration number:10,Time taken to resolve DNS for: www.Google.de. : 5ms
+Average time is: 16

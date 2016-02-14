@@ -1,77 +1,78 @@
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 55425
-;; flags: qr rd ; qd: 1 an: 0 au: 13 ad: 14 
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57987
+;; flags: qr rd ; qd: 1 an: 0 au: 6 ad: 7 
 ;; QUESTIONS:
-;;	www.santabanta.com., type = A, class = IN
+;;	www.cs.stonybrook.edu., type = A, class = IN
 
 ;; ANSWERS:
 
 ;; AUTHORITY RECORDS:
-com.			172800	IN	NS	m.gtld-servers.net.
-com.			172800	IN	NS	l.gtld-servers.net.
-com.			172800	IN	NS	k.gtld-servers.net.
-com.			172800	IN	NS	j.gtld-servers.net.
-com.			172800	IN	NS	i.gtld-servers.net.
-com.			172800	IN	NS	h.gtld-servers.net.
-com.			172800	IN	NS	g.gtld-servers.net.
-com.			172800	IN	NS	f.gtld-servers.net.
-com.			172800	IN	NS	e.gtld-servers.net.
-com.			172800	IN	NS	d.gtld-servers.net.
-com.			172800	IN	NS	c.gtld-servers.net.
-com.			172800	IN	NS	b.gtld-servers.net.
-com.			172800	IN	NS	a.gtld-servers.net.
+edu.			172800	IN	NS	l.edu-servers.net.
+edu.			172800	IN	NS	g.edu-servers.net.
+edu.			172800	IN	NS	f.edu-servers.net.
+edu.			172800	IN	NS	d.edu-servers.net.
+edu.			172800	IN	NS	c.edu-servers.net.
+edu.			172800	IN	NS	a.edu-servers.net.
 
 ;; ADDITIONAL RECORDS:
-m.gtld-servers.net.	172800	IN	A	192.55.83.30
-l.gtld-servers.net.	172800	IN	A	192.41.162.30
-k.gtld-servers.net.	172800	IN	A	192.52.178.30
-j.gtld-servers.net.	172800	IN	A	192.48.79.30
-i.gtld-servers.net.	172800	IN	A	192.43.172.30
-h.gtld-servers.net.	172800	IN	A	192.54.112.30
-g.gtld-servers.net.	172800	IN	A	192.42.93.30
-f.gtld-servers.net.	172800	IN	A	192.35.51.30
-e.gtld-servers.net.	172800	IN	A	192.12.94.30
-d.gtld-servers.net.	172800	IN	A	192.31.80.30
-c.gtld-servers.net.	172800	IN	A	192.26.92.30
-b.gtld-servers.net.	172800	IN	A	192.33.14.30
-b.gtld-servers.net.	172800	IN	AAAA	2001:503:231d:0:0:0:2:30
-a.gtld-servers.net.	172800	IN	A	192.5.6.30
+l.edu-servers.net.	172800	IN	A	192.41.162.30
+g.edu-servers.net.	172800	IN	A	192.42.93.30
+g.edu-servers.net.	172800	IN	AAAA	2001:503:cc2c:0:0:0:2:36
+f.edu-servers.net.	172800	IN	A	192.35.51.30
+d.edu-servers.net.	172800	IN	A	192.31.80.30
+c.edu-servers.net.	172800	IN	A	192.26.92.30
+a.edu-servers.net.	172800	IN	A	192.5.6.30
 
-;; Message size: 496 bytes
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 16047
-;; flags: qr rd ; qd: 1 an: 0 au: 4 ad: 7 
+;; Message size: 274 bytes
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 32359
+;; flags: qr rd ; qd: 1 an: 0 au: 3 ad: 3 
 ;; QUESTIONS:
-;;	www.santabanta.com., type = A, class = IN
+;;	www.cs.stonybrook.edu., type = A, class = IN
 
 ;; ANSWERS:
 
 ;; AUTHORITY RECORDS:
-santabanta.com.		172800	IN	NS	ns1.easydns.com.
-santabanta.com.		172800	IN	NS	ns2.easydns.com.
-santabanta.com.		172800	IN	NS	remote1.easydns.com.
-santabanta.com.		172800	IN	NS	remote2.easydns.com.
+stonybrook.edu.		172800	IN	NS	nocnoc.stonybrook.edu.
+stonybrook.edu.		172800	IN	NS	whoisthere.stonybrook.edu.
+stonybrook.edu.		172800	IN	NS	mewho.stonybrook.edu.
 
 ;; ADDITIONAL RECORDS:
-ns1.easydns.com.	172800	IN	AAAA	2001:1838:f001:0:0:0:0:10
-ns1.easydns.com.	172800	IN	A	64.68.192.210
-ns2.easydns.com.	172800	IN	A	198.41.222.254
-ns2.easydns.com.	172800	IN	AAAA	2400:cb00:2049:1:0:0:c629:defe
-remote1.easydns.com.	172800	IN	A	64.68.192.210
-remote2.easydns.com.	172800	IN	A	198.41.222.254
-remote2.easydns.com.	172800	IN	AAAA	2400:cb00:2049:1:0:0:c629:defe
+nocnoc.stonybrook.edu.	172800	IN	A	129.49.7.3
+whoisthere.stonybrook.edu.	172800	IN	A	129.49.7.250
+mewho.stonybrook.edu.	172800	IN	A	199.110.254.244
 
-;; Message size: 272 bytes
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27661
-;; flags: qr aa rd ; qd: 1 an: 1 au: 0 ad: 0 
+;; Message size: 153 bytes
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1227
+;; flags: qr rd ; qd: 1 an: 0 au: 2 ad: 2 
 ;; QUESTIONS:
-;;	www.santabanta.com., type = A, class = IN
+;;	www.cs.stonybrook.edu., type = A, class = IN
 
 ;; ANSWERS:
-www.santabanta.com.	86400	IN	CNAME	www.fes.netdna-cdn.com.
 
 ;; AUTHORITY RECORDS:
+cs.stonybrook.edu.	900	IN	NS	dns02.cs.stonybrook.edu.
+cs.stonybrook.edu.	900	IN	NS	dns01.cs.stonybrook.edu.
 
 ;; ADDITIONAL RECORDS:
+dns02.cs.stonybrook.edu.	900	IN	A	130.245.1.48
+dns01.cs.stonybrook.edu.	900	IN	A	130.245.1.15
 
-;; Message size: 69 bytes
-DNS Resolved for :www.santabanta.com.
-www.fes.netdna-cdn.com.
+;; Message size: 111 bytes
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57976
+;; flags: qr aa rd ; qd: 1 an: 1 au: 2 ad: 2 
+;; QUESTIONS:
+;;	www.cs.stonybrook.edu., type = A, class = IN
+
+;; ANSWERS:
+www.cs.stonybrook.edu.	28800	IN	A	130.245.27.2
+
+;; AUTHORITY RECORDS:
+cs.stonybrook.edu.	28800	IN	NS	dns02.cs.stonybrook.edu.
+cs.stonybrook.edu.	28800	IN	NS	dns01.cs.stonybrook.edu.
+
+;; ADDITIONAL RECORDS:
+dns01.cs.stonybrook.edu.	28800	IN	A	130.245.1.15
+dns02.cs.stonybrook.edu.	28800	IN	A	130.245.1.48
+
+;; Message size: 127 bytes
+DNS Resolved for :www.cs.stonybrook.edu.
+130.245.27.2

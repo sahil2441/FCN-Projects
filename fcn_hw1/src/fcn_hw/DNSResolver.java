@@ -12,11 +12,10 @@ import org.xbill.DNS.Record;
 import org.xbill.DNS.SimpleResolver;
 
 public class DNSResolver {
-	final static String IPADDRESS_PATTERN = "(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)";
 	static List<String> ipAddress = null;
 
 	public static void main(String[] args) {
-		String website = "www.santabanta.com.";
+		String website = "www.cs.stonybrook.edu.";
 		int queryType = 1;
 		resolveDNS(website, queryType);
 	}
@@ -46,6 +45,24 @@ public class DNSResolver {
 		}
 	}
 
+	public static void resolveDNSUsingCustomRoot(String website, int queryType, String root) {
+		boolean success = false;
+		while (true) {
+			try {
+				if (resolveAddress(website, root, queryType)) {
+					System.out.println("DNS Resolved for :" + website);
+					printIPAddress();
+					success = true;
+					break;
+				} else
+					System.out.println("Failed to Resolved DNS for :" + website);
+
+			} catch (IOException e) {
+				// Do nothing
+			}
+		}
+	}
+
 	public static boolean resolveAddress(String website, String root, int queryType) throws IOException {
 
 		SimpleResolver resolver = new SimpleResolver(root);
@@ -53,7 +70,7 @@ public class DNSResolver {
 		Message response = resolver.send(query);
 		if (response == null)
 			return false;
-		System.out.println(response);
+		// System.out.println(response);
 
 		// check if answer is empty. If yes, repeat the step recursively
 		List<String> answerList = getIPAddresses(response.sectionToString(1));
@@ -61,6 +78,11 @@ public class DNSResolver {
 			ipAddress = answerList;
 			return true;
 		}
+
+		// check if authority is null -- return true to exit
+		List<String> authorityList = getIPAddresses(response.sectionToString(2));
+		if (authorityList == null || authorityList.size() < 1)
+			return true;
 
 		// else recursively call this method to Domain servers that are lower in
 		// Hierarchy
