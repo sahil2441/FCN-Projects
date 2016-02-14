@@ -58,11 +58,22 @@ public class DNSResolver {
 		String result = response.sectionToString(3);
 		List<String> ipAddresses = getIPAddresses(result);
 
-		// TODO: pick up first element from array -- this needs to be changed
 		if (ipAddresses == null || ipAddresses.size() < 1)
 			return false;
 
-		return resolveAddress(website, ipAddresses.get(ipAddresses.size() - 1));
+		// try each of the server one by one -- kind of backtracking
+		for (int i = 0; i < ipAddresses.size(); i++) {
+			String currentAddress = ipAddresses.get(i);
+			boolean flag = false;
+			try {
+				flag = resolveAddress(website, currentAddress);
+			} catch (Exception e) {
+				// Do nothing
+			}
+			if (flag)
+				return true;
+		}
+		return false;
 	}
 
 	private static void printIPAddress() {
