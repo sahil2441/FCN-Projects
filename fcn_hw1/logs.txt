@@ -1,7 +1,7 @@
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22458
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 55425
 ;; flags: qr rd ; qd: 1 an: 0 au: 13 ad: 14 
 ;; QUESTIONS:
-;;	www.google.com., type = A, class = IN
+;;	www.santabanta.com., type = A, class = IN
 
 ;; ANSWERS:
 
@@ -36,47 +36,42 @@ b.gtld-servers.net.	172800	IN	A	192.33.14.30
 b.gtld-servers.net.	172800	IN	AAAA	2001:503:231d:0:0:0:2:30
 a.gtld-servers.net.	172800	IN	A	192.5.6.30
 
-;; Message size: 492 bytes
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21193
-;; flags: qr rd ; qd: 1 an: 0 au: 4 ad: 4 
+;; Message size: 496 bytes
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 16047
+;; flags: qr rd ; qd: 1 an: 0 au: 4 ad: 7 
 ;; QUESTIONS:
-;;	www.google.com., type = A, class = IN
+;;	www.santabanta.com., type = A, class = IN
 
 ;; ANSWERS:
 
 ;; AUTHORITY RECORDS:
-google.com.		172800	IN	NS	ns2.google.com.
-google.com.		172800	IN	NS	ns1.google.com.
-google.com.		172800	IN	NS	ns3.google.com.
-google.com.		172800	IN	NS	ns4.google.com.
+santabanta.com.		172800	IN	NS	ns1.easydns.com.
+santabanta.com.		172800	IN	NS	ns2.easydns.com.
+santabanta.com.		172800	IN	NS	remote1.easydns.com.
+santabanta.com.		172800	IN	NS	remote2.easydns.com.
 
 ;; ADDITIONAL RECORDS:
-ns2.google.com.		172800	IN	A	216.239.34.10
-ns1.google.com.		172800	IN	A	216.239.32.10
-ns3.google.com.		172800	IN	A	216.239.36.10
-ns4.google.com.		172800	IN	A	216.239.38.10
+ns1.easydns.com.	172800	IN	AAAA	2001:1838:f001:0:0:0:0:10
+ns1.easydns.com.	172800	IN	A	64.68.192.210
+ns2.easydns.com.	172800	IN	A	198.41.222.254
+ns2.easydns.com.	172800	IN	AAAA	2400:cb00:2049:1:0:0:c629:defe
+remote1.easydns.com.	172800	IN	A	64.68.192.210
+remote2.easydns.com.	172800	IN	A	198.41.222.254
+remote2.easydns.com.	172800	IN	AAAA	2400:cb00:2049:1:0:0:c629:defe
 
-;; Message size: 168 bytes
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 58409
-;; flags: qr aa rd ; qd: 1 an: 5 au: 0 ad: 0 
+;; Message size: 272 bytes
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27661
+;; flags: qr aa rd ; qd: 1 an: 1 au: 0 ad: 0 
 ;; QUESTIONS:
-;;	www.google.com., type = A, class = IN
+;;	www.santabanta.com., type = A, class = IN
 
 ;; ANSWERS:
-www.google.com.		300	IN	A	74.125.226.113
-www.google.com.		300	IN	A	74.125.226.112
-www.google.com.		300	IN	A	74.125.226.114
-www.google.com.		300	IN	A	74.125.226.115
-www.google.com.		300	IN	A	74.125.226.116
+www.santabanta.com.	86400	IN	CNAME	www.fes.netdna-cdn.com.
 
 ;; AUTHORITY RECORDS:
 
 ;; ADDITIONAL RECORDS:
 
-;; Message size: 112 bytes
-DNS Resolved for :www.google.com.
-74.125.226.113
-74.125.226.112
-74.125.226.114
-74.125.226.115
-74.125.226.116
+;; Message size: 69 bytes
+DNS Resolved for :www.santabanta.com.
+www.fes.netdna-cdn.com.
