@@ -1,0 +1,82 @@
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 17160
+;; flags: qr rd ; qd: 1 an: 0 au: 13 ad: 14 
+;; QUESTIONS:
+;;	www.google.com., type = A, class = IN
+
+;; ANSWERS:
+
+;; AUTHORITY RECORDS:
+com.			172800	IN	NS	c.gtld-servers.net.
+com.			172800	IN	NS	i.gtld-servers.net.
+com.			172800	IN	NS	d.gtld-servers.net.
+com.			172800	IN	NS	e.gtld-servers.net.
+com.			172800	IN	NS	f.gtld-servers.net.
+com.			172800	IN	NS	a.gtld-servers.net.
+com.			172800	IN	NS	m.gtld-servers.net.
+com.			172800	IN	NS	k.gtld-servers.net.
+com.			172800	IN	NS	h.gtld-servers.net.
+com.			172800	IN	NS	j.gtld-servers.net.
+com.			172800	IN	NS	b.gtld-servers.net.
+com.			172800	IN	NS	l.gtld-servers.net.
+com.			172800	IN	NS	g.gtld-servers.net.
+
+;; ADDITIONAL RECORDS:
+a.gtld-servers.net.	172800	IN	A	192.5.6.30
+a.gtld-servers.net.	172800	IN	AAAA	2001:503:a83e:0:0:0:2:30
+b.gtld-servers.net.	172800	IN	A	192.33.14.30
+b.gtld-servers.net.	172800	IN	AAAA	2001:503:231d:0:0:0:2:30
+c.gtld-servers.net.	172800	IN	A	192.26.92.30
+d.gtld-servers.net.	172800	IN	A	192.31.80.30
+e.gtld-servers.net.	172800	IN	A	192.12.94.30
+f.gtld-servers.net.	172800	IN	A	192.35.51.30
+g.gtld-servers.net.	172800	IN	A	192.42.93.30
+h.gtld-servers.net.	172800	IN	A	192.54.112.30
+i.gtld-servers.net.	172800	IN	A	192.43.172.30
+j.gtld-servers.net.	172800	IN	A	192.48.79.30
+k.gtld-servers.net.	172800	IN	A	192.52.178.30
+l.gtld-servers.net.	172800	IN	A	192.41.162.30
+
+;; Message size: 504 bytes
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 62345
+;; flags: qr rd ; qd: 1 an: 0 au: 4 ad: 4 
+;; QUESTIONS:
+;;	www.google.com., type = A, class = IN
+
+;; ANSWERS:
+
+;; AUTHORITY RECORDS:
+google.com.		172800	IN	NS	ns2.google.com.
+google.com.		172800	IN	NS	ns1.google.com.
+google.com.		172800	IN	NS	ns3.google.com.
+google.com.		172800	IN	NS	ns4.google.com.
+
+;; ADDITIONAL RECORDS:
+ns2.google.com.		172800	IN	A	216.239.34.10
+ns1.google.com.		172800	IN	A	216.239.32.10
+ns3.google.com.		172800	IN	A	216.239.36.10
+ns4.google.com.		172800	IN	A	216.239.38.10
+
+;; Message size: 168 bytes
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 23154
+;; flags: qr aa rd ; qd: 1 an: 5 au: 0 ad: 0 
+;; QUESTIONS:
+;;	www.google.com., type = A, class = IN
+
+;; ANSWERS:
+www.google.com.		300	IN	A	74.125.226.114
+www.google.com.		300	IN	A	74.125.226.115
+www.google.com.		300	IN	A	74.125.226.113
+www.google.com.		300	IN	A	74.125.226.112
+www.google.com.		300	IN	A	74.125.226.116
+
+;; AUTHORITY RECORDS:
+
+;; ADDITIONAL RECORDS:
+
+;; Message size: 112 bytes
+DNS Resolved for :www.google.com.
+74.125.226.114
+74.125.226.115
+74.125.226.113
+74.125.226.112
+74.125.226.116
