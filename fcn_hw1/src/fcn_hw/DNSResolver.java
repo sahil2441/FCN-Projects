@@ -1,6 +1,5 @@
 package fcn_hw;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -15,96 +14,101 @@ public class DNSResolver {
 	static List<String> ipAddress = null;
 
 	public static void main(String[] args) {
-		String website = "www.cs.stonybrook.edu.";
+		String website = "www.google.com.";
 		int queryType = 1;
-		resolveDNS(website, queryType);
+		String ipAddress = null;
+
+		try {
+			ipAddress = resolveDNS(website, queryType);
+		} catch (Exception e) {
+			// Do Nothing
+		}
+		if (ipAddress != null)
+			System.out.println("DNS resolved for website : " + website + "   " + ipAddress);
+		else
+			System.out.println("Failed to resolve DNS resolved for: " + website);
 	}
 
-	public static void resolveDNS(String website, int queryType) {
+	public static String resolveDNS(String website, int queryType) {
 		List<String> rootServers = getRootServerList();
-		boolean success = false;
+		String ipAddress = null;
 
 		for (int i = 0; i < rootServers.size(); i++) {
-			if (success)
-				break;
 			String root = rootServers.get(i);
-			while (true) {
-				try {
-					if (resolveAddress(website, root, queryType)) {
-						System.out.println("DNS Resolved for :" + website);
-						printIPAddress();
-						success = true;
-						break;
-					} else
-						System.out.println("Failed to Resolved DNS for :" + website);
-
-				} catch (IOException e) {
-					// Do nothing
-				}
-			}
-		}
-	}
-
-	public static void resolveDNSUsingCustomRoot(String website, int queryType, String root) {
-		boolean success = false;
-		while (true) {
 			try {
-				if (resolveAddress(website, root, queryType)) {
-					System.out.println("DNS Resolved for :" + website);
-					printIPAddress();
-					success = true;
-					break;
-				} else
-					System.out.println("Failed to Resolved DNS for :" + website);
-
-			} catch (IOException e) {
-				// Do nothing
-			}
-		}
-	}
-
-	public static boolean resolveAddress(String website, String root, int queryType) throws IOException {
-
-		SimpleResolver resolver = new SimpleResolver(root);
-		Message query = Message.newQuery(Record.newRecord(Name.fromString(website), queryType, DClass.IN));
-		Message response = resolver.send(query);
-		if (response == null)
-			return false;
-		// System.out.println(response);
-
-		// check if answer is empty. If yes, repeat the step recursively
-		List<String> answerList = getIPAddresses(response.sectionToString(1));
-		if (answerList != null && answerList.size() > 0) {
-			ipAddress = answerList;
-			return true;
-		}
-
-		// check if authority is null -- return true to exit
-		List<String> authorityList = getIPAddresses(response.sectionToString(2));
-		if (authorityList == null || authorityList.size() < 1)
-			return true;
-
-		// else recursively call this method to Domain servers that are lower in
-		// Hierarchy
-		String result = response.sectionToString(3);
-		List<String> ipAddresses = getIPAddresses(result);
-
-		if (ipAddresses == null || ipAddresses.size() < 1)
-			return false;
-
-		// try each of the server one by one -- kind of backtracking
-		for (int i = 0; i < ipAddresses.size(); i++) {
-			String currentAddress = ipAddresses.get(i);
-			boolean flag = false;
-			try {
-				flag = resolveAddress(website, currentAddress, queryType);
+				ipAddress = resolveAddress(website, root, queryType);
 			} catch (Exception e) {
 				// Do nothing
 			}
-			if (flag)
-				return true;
+			if (ipAddress != null) {
+				return ipAddress;
+			}
 		}
-		return false;
+		return ipAddress;
+	}
+
+	@SuppressWarnings("unused")
+	public static String resolveAddress(String website, String root, int queryType) {
+
+		SimpleResolver resolver = null;
+		Message query = null;
+		Message response = null;
+		try {
+			resolver = new SimpleResolver(root);
+			query = Message.newQuery(Record.newRecord(Name.fromString(website), queryType, DClass.IN));
+			response = resolver.send(query);
+		} catch (Exception e) {
+			// Do Nothing
+		}
+
+		String ipAddress = null;
+
+		if (response == null)
+			return null;
+		System.out.println(response);
+
+		// check if answer set is not empty. If it's not empty return the first
+		// value
+		// else move forward
+		List<String> answerList = getIPAddresses(response.sectionToString(1));
+		if (answerList != null && answerList.size() > 0) {
+			return answerList.get(0);
+		}
+
+		// check if authority is null -- return false to exit
+		// else find recursive calls using additional information that contains
+		// IP addressees of the auth. servers
+		List<String> authorityListServers = getIPAddresses(response.sectionToString(2));
+		if (authorityListServers == null || authorityListServers.size() < 1)
+			return null;
+
+		// find the list of ip Addresses in Additional section and use them to
+		// find answer
+		String result = response.sectionToString(3);
+		List<String> ipAddressesAdditional = getIPAddresses(result);
+
+		if (ipAddressesAdditional != null && ipAddressesAdditional.size() > 0) {
+			// try each of the server one by one
+			for (int i = 0; i < ipAddressesAdditional.size(); i++) {
+				String currentRoot = ipAddressesAdditional.get(i);
+				String address = resolveAddress(website, currentRoot, queryType);
+				if (address != null)
+					return address;
+			}
+		} else {
+
+			// this is the last resort. This is the case when the server knows
+			// the name of the server but not its IP Address. So we need to find
+			// its IP before moving forward.
+
+			for (int i = 0; i < authorityListServers.size(); i++) {
+				String rootAddress = resolveDNS(authorityListServers.get(i), queryType);
+				String address = resolveAddress(website, rootAddress, queryType);
+				if (address != null)
+					return address;
+			}
+		}
+		return null;
 	}
 
 	public static void printIPAddress() {
@@ -123,7 +127,6 @@ public class DNSResolver {
 			if ((i + 1) % 5 == 0)
 				ipAddresses.add(resultArray[i]);
 		}
-
 		return ipAddresses;
 	}
 

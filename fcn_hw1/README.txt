@@ -28,5 +28,12 @@ The expected output is listed in the file: mydig_output.txt
 Part C:
 The class fcn_hw.PerformanceMeasure has 3 method corresponding to each of the 
 experiments as listed in Assignment.
-The graphs can be found in the root folder of this submission.
+
+The CDF graphs can be found in the root folder of this submission, named:
+experiment_1.png
+experiment_2.png
+experiment_3.png
+
+Part D:
+
 

@@ -15,16 +15,23 @@ public class PerformanceMeasure {
 
 	public static void main(String[] args) {
 
-		// experiment1();
-		experiment2();
-		// experiment3();
+		try {
+			// experiment3();
+			// experiment1();
+			experiment2();
+		} catch (Exception e) {
+			// Do Nothing
+
+		}
 
 	}
 
 	/**
 	 * Experiment using Google's server
+	 * 
+	 * @throws Exception
 	 */
-	private static void experiment3() {
+	private static void experiment3() throws Exception {
 		String googleDNS1 = "4.4.4.4";
 		String googleDNS2 = "8.8.8.8";
 		long startTime, endTime, currentTime, totalTime = 0;
@@ -38,7 +45,7 @@ public class PerformanceMeasure {
 			int j = 0;
 			while (j++ < 10) {
 				startTime = System.currentTimeMillis();
-				resolver.resolveDNSUsingCustomRoot(websiteList[i], queryType, googleDNS2);
+				resolver.resolveAddress(websiteList[i], googleDNS2, queryType);
 				endTime = System.currentTimeMillis();
 				currentTime = endTime - startTime;
 				System.out.println("Iteration number:" + j + ",Time taken to resolve DNS for: " + websiteList[i] + " : "
@@ -55,18 +62,18 @@ public class PerformanceMeasure {
 		}
 		System.out.println("Average time is: " + totalTime / count);
 
-		// print map:
-		for (Long key : countMap.keySet())
-			System.out.println(key + "," + countMap.get(key));
-
 	}
 
 	/**
 	 * Experiment using the local DNS server
+	 * 
+	 * @throws Exception
 	 */
 
-	private static void experiment2() {
+	private static void experiment2() throws Exception {
 		String localDNS = "192.168.43.1";
+		// String localDNS = "205.251.193.21";
+
 		long startTime, endTime, currentTime, totalTime = 0;
 		DNSResolver resolver = new DNSResolver();
 
@@ -75,7 +82,7 @@ public class PerformanceMeasure {
 			int j = 0;
 			while (j++ < 10) {
 				startTime = System.currentTimeMillis();
-				resolver.resolveDNSUsingCustomRoot(websiteList[i], queryType, localDNS);
+				resolver.resolveAddress(websiteList[i], localDNS, queryType);
 				endTime = System.currentTimeMillis();
 				currentTime = endTime - startTime;
 				System.out.println("Iteration number:" + j + ",Time taken to resolve DNS for: " + websiteList[i] + " : "
@@ -89,9 +96,11 @@ public class PerformanceMeasure {
 
 	/**
 	 * Experiment using root and TLDs
+	 * 
+	 * @throws Exception
 	 */
 
-	private static void experiment1() {
+	private static void experiment1() throws Exception {
 		long startTime, endTime, currentTime, totalTime = 0;
 		DNSResolver resolver = new DNSResolver();
 
