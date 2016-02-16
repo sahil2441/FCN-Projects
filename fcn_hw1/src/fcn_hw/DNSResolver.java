@@ -14,6 +14,8 @@ public class DNSResolver {
 	static List<String> ipAddress = null;
 
 	public static void main(String[] args) {
+		// TODO .sh file
+
 		String website = "www.google.com.";
 		int queryType = 1;
 		String ipAddress = null;
@@ -65,7 +67,7 @@ public class DNSResolver {
 
 		if (response == null)
 			return null;
-		System.out.println(response);
+		// System.out.println(response);
 
 		// check if answer set is not empty. If it's not empty return the first
 		// value

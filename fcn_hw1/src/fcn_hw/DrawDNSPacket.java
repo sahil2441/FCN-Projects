@@ -1,12 +1,12 @@
 package fcn_hw;
 
-public class MyDig {
+public class DrawDNSPacket {
 	static String website = "www.cs.stonybrook.edu.";
 	static int queryType = 1;
 
 	@SuppressWarnings("static-access")
 	public static void main(String[] args) {
-		// TODO .sh file
+		// TODO
 		DNSResolver resolver = new DNSResolver();
 		String address = null;
 		try {
@@ -20,5 +20,4 @@ public class MyDig {
 		else
 			System.out.println("Failed to resolve DNS resolved for: " + website);
 	}
-
 }

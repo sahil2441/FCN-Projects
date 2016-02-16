@@ -15,14 +15,9 @@ public class PerformanceMeasure {
 
 	public static void main(String[] args) {
 
-		try {
-			// experiment3();
-			// experiment1();
-			experiment2();
-		} catch (Exception e) {
-			// Do Nothing
-
-		}
+		// experiment1();
+		experiment2();
+		// experiment3();
 
 	}
 
@@ -31,7 +26,7 @@ public class PerformanceMeasure {
 	 * 
 	 * @throws Exception
 	 */
-	private static void experiment3() throws Exception {
+	private static void experiment3() {
 		String googleDNS1 = "4.4.4.4";
 		String googleDNS2 = "8.8.8.8";
 		long startTime, endTime, currentTime, totalTime = 0;
@@ -70,7 +65,7 @@ public class PerformanceMeasure {
 	 * @throws Exception
 	 */
 
-	private static void experiment2() throws Exception {
+	private static void experiment2() {
 		String localDNS = "192.168.43.1";
 		// String localDNS = "205.251.193.21";
 
@@ -100,7 +95,7 @@ public class PerformanceMeasure {
 	 * @throws Exception
 	 */
 
-	private static void experiment1() throws Exception {
+	private static void experiment1() {
 		long startTime, endTime, currentTime, totalTime = 0;
 		DNSResolver resolver = new DNSResolver();
 
