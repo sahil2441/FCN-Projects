@@ -11,13 +11,13 @@ import org.xbill.DNS.Record;
 import org.xbill.DNS.SimpleResolver;
 
 public class DNSResolver {
-	static List<String> ipAddress = null;
+
+	static String website = "www.cs.stonybrook.edu.";
+	static int queryType = 1;
 
 	public static void main(String[] args) {
 		// TODO .sh file
 
-		String website = "www.google.com.";
-		int queryType = 1;
 		String ipAddress = null;
 
 		try {
@@ -67,7 +67,7 @@ public class DNSResolver {
 
 		if (response == null)
 			return null;
-		// System.out.println(response);
+		System.out.println(response);
 
 		// check if answer set is not empty. If it's not empty return the first
 		// value
@@ -111,14 +111,6 @@ public class DNSResolver {
 			}
 		}
 		return null;
-	}
-
-	public static void printIPAddress() {
-		if (ipAddress != null) {
-			for (int i = 0; i < ipAddress.size(); i++) {
-				System.out.println(ipAddress.get(i));
-			}
-		}
 	}
 
 	public static List<String> getIPAddresses(String input) {

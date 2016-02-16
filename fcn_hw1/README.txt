@@ -58,5 +58,6 @@ experiment_2.png
 experiment_3.png
 
 Part D:
+Refer to the image file in the root directory -- dns_format.png
 
 
