@@ -1,5 +1,8 @@
 package fcn_hw;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class PerformanceMeasure {
 	static final int queryType = 1;
 
@@ -18,11 +21,17 @@ public class PerformanceMeasure {
 
 	}
 
+	/**
+	 * Experiment using Google's server
+	 */
 	private static void experiment3() {
 		String googleDNS1 = "4.4.4.4";
 		String googleDNS2 = "8.8.8.8";
 		long startTime, endTime, currentTime, totalTime = 0;
 		DNSResolver resolver = new DNSResolver();
+
+		// map to maintain frequency
+		Map<Long, Integer> countMap = new HashMap();
 
 		int count = 0;
 		for (int i = 0; i < websiteList.length; i++) {
@@ -36,11 +45,25 @@ public class PerformanceMeasure {
 						+ currentTime + "ms");
 				totalTime += currentTime;
 				count++;
+
+				// update the map
+				if (countMap.get(currentTime) != null)
+					countMap.put(currentTime, countMap.get(currentTime) + 1);
+				else
+					countMap.put(currentTime, 1);
 			}
 		}
 		System.out.println("Average time is: " + totalTime / count);
 
+		// print map:
+		for (Long key : countMap.keySet())
+			System.out.println(key + "," + countMap.get(key));
+
 	}
+
+	/**
+	 * Experiment using the local DNS server
+	 */
 
 	private static void experiment2() {
 		String localDNS = "192.168.43.1";
@@ -63,6 +86,10 @@ public class PerformanceMeasure {
 		}
 		System.out.println("Average time is: " + totalTime / count);
 	}
+
+	/**
+	 * Experiment using root and TLDs
+	 */
 
 	private static void experiment1() {
 		long startTime, endTime, currentTime, totalTime = 0;
