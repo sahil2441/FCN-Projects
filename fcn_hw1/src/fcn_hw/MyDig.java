@@ -6,7 +6,6 @@ public class MyDig {
 
 	@SuppressWarnings("static-access")
 	public static void main(String[] args) {
-		// TODO .sh file
 		DNSResolver resolver = new DNSResolver();
 		String address = null;
 		try {

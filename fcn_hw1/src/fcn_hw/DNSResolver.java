@@ -19,7 +19,6 @@ public class DNSResolver {
 	static int queryType = 1;
 
 	public static void main(String[] args) {
-		// TODO .sh file
 
 		String ipAddress = null, validAddress = null;
 		ipAddress = resolveDNS(website, queryType);
