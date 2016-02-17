@@ -1,8 +1,5 @@
 package fcn_hw;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class PerformanceMeasure {
 	static final int queryType = 1;
 
@@ -16,8 +13,8 @@ public class PerformanceMeasure {
 	public static void main(String[] args) {
 
 		// experiment1();
-		experiment2();
-		// experiment3();
+		// experiment2();
+		experiment3();
 
 	}
 
@@ -32,9 +29,6 @@ public class PerformanceMeasure {
 		long startTime, endTime, currentTime, totalTime = 0;
 		DNSResolver resolver = new DNSResolver();
 
-		// map to maintain frequency
-		Map<Long, Integer> countMap = new HashMap();
-
 		int count = 0;
 		for (int i = 0; i < websiteList.length; i++) {
 			int j = 0;
@@ -48,11 +42,6 @@ public class PerformanceMeasure {
 				totalTime += currentTime;
 				count++;
 
-				// update the map
-				if (countMap.get(currentTime) != null)
-					countMap.put(currentTime, countMap.get(currentTime) + 1);
-				else
-					countMap.put(currentTime, 1);
 			}
 		}
 		System.out.println("Average time is: " + totalTime / count);

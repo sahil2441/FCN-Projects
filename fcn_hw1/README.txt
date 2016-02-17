@@ -22,7 +22,7 @@ The method
 fcn_hw.DNSResolver.resolveDNS(String, int)
 takes two arguments - website name and the type of query and resolves the DNS.
 
-To view the response at each step , uncomment the line 68
+To view the response at each step , uncomment the line 96
 // System.out.println(response);
 in the method:
 fcn_hw.DNSResolver.resolveAddress(String, String, int)

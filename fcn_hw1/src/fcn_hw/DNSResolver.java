@@ -3,6 +3,8 @@ package fcn_hw;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import org.xbill.DNS.DClass;
 import org.xbill.DNS.Message;
@@ -11,24 +13,47 @@ import org.xbill.DNS.Record;
 import org.xbill.DNS.SimpleResolver;
 
 public class DNSResolver {
+	final static String IPADDRESS_PATTERN = "(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)";
 
-	static String website = "www.amazon.com.";
+	static String website = "www.facebook.com.";
 	static int queryType = 1;
 
 	public static void main(String[] args) {
 		// TODO .sh file
 
-		String ipAddress = null;
+		String ipAddress = null, validAddress = null;
+		ipAddress = resolveDNS(website, queryType);
 
-		try {
-			ipAddress = resolveDNS(website, queryType);
-		} catch (Exception e) {
-			// Do Nothing
-		}
-		if (ipAddress != null)
-			System.out.println("DNS resolved for website : " + website + "   " + ipAddress);
-		else
+		// The idea is that sometimes the resolved IP address is not in a valid
+		// IP. If it's not then we need to again run the query for the result
+		// obtained.
+
+		if (ipAddress == null)
 			System.out.println("Failed to resolve DNS resolved for: " + website);
+
+		else {
+			if (isValidAddress(ipAddress))
+				System.out.println("DNS resolved for website : " + website + "   " + ipAddress);
+			else {
+				validAddress = resolveDNS(ipAddress, queryType);
+				if (validAddress != null && isValidAddress(validAddress))
+					System.out.println("DNS resolved for website : " + website + "   " + validAddress);
+				else
+					System.out.println("DNS resolved for website : " + website + "   " + ipAddress);
+			}
+		}
+	}
+
+	private static boolean isValidAddress(String ipAddress) {
+		// Create a Pattern object
+		Pattern pattern = Pattern.compile(IPADDRESS_PATTERN);
+
+		// Now create matcher object.
+		Matcher matcher = pattern.matcher(ipAddress);
+
+		if (matcher.matches())
+			return true;
+		return false;
 	}
 
 	public static String resolveDNS(String website, int queryType) {
