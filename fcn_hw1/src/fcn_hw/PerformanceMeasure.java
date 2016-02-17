@@ -13,8 +13,8 @@ public class PerformanceMeasure {
 	public static void main(String[] args) {
 
 		// experiment1();
-		// experiment2();
-		experiment3();
+		experiment2();
+		// experiment3();
 
 	}
 

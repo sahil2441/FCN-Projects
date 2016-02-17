@@ -58,6 +58,17 @@ Part C:
 The class fcn_hw.PerformanceMeasure has 3 method corresponding to each of the 
 experiments as listed in Assignment.
 
+Explanation of Results:
+If you observe the CDF for all three experiments, it shows that time taken to resolve DNS query is in the 
+following order:
+Local DNS Server < Google's DNS < Root Servers
+
+The reason for above observation is obvious.
+
+For experiment 1, 80% of the queries took less than 40,000 ms.
+For experiment 2, 80% of the queries took less than 5 ms.
+For experiment 3, 80% of the queries took less than 10 ms.
+
 The CDF graphs can be found in the root folder of this submission, named:
 experiment_1.png
 experiment_2.png
