@@ -1,77 +1,348 @@
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64059
-;; flags: qr rd ; qd: 1 an: 0 au: 6 ad: 7 
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 7327
+;; flags: qr rd ; qd: 1 an: 0 au: 13 ad: 14 
 ;; QUESTIONS:
-;;	www.cs.stonybrook.edu., type = A, class = IN
+;;	www.amazon.com., type = A, class = IN
 
 ;; ANSWERS:
 
 ;; AUTHORITY RECORDS:
-edu.			172800	IN	NS	l.edu-servers.net.
-edu.			172800	IN	NS	g.edu-servers.net.
-edu.			172800	IN	NS	f.edu-servers.net.
-edu.			172800	IN	NS	d.edu-servers.net.
-edu.			172800	IN	NS	c.edu-servers.net.
-edu.			172800	IN	NS	a.edu-servers.net.
+com.			172800	IN	NS	m.gtld-servers.net.
+com.			172800	IN	NS	l.gtld-servers.net.
+com.			172800	IN	NS	k.gtld-servers.net.
+com.			172800	IN	NS	j.gtld-servers.net.
+com.			172800	IN	NS	i.gtld-servers.net.
+com.			172800	IN	NS	h.gtld-servers.net.
+com.			172800	IN	NS	g.gtld-servers.net.
+com.			172800	IN	NS	f.gtld-servers.net.
+com.			172800	IN	NS	e.gtld-servers.net.
+com.			172800	IN	NS	d.gtld-servers.net.
+com.			172800	IN	NS	c.gtld-servers.net.
+com.			172800	IN	NS	b.gtld-servers.net.
+com.			172800	IN	NS	a.gtld-servers.net.
 
 ;; ADDITIONAL RECORDS:
-l.edu-servers.net.	172800	IN	A	192.41.162.30
-g.edu-servers.net.	172800	IN	A	192.42.93.30
-g.edu-servers.net.	172800	IN	AAAA	2001:503:cc2c:0:0:0:2:36
-f.edu-servers.net.	172800	IN	A	192.35.51.30
-d.edu-servers.net.	172800	IN	A	192.31.80.30
-c.edu-servers.net.	172800	IN	A	192.26.92.30
-a.edu-servers.net.	172800	IN	A	192.5.6.30
+m.gtld-servers.net.	172800	IN	A	192.55.83.30
+l.gtld-servers.net.	172800	IN	A	192.41.162.30
+k.gtld-servers.net.	172800	IN	A	192.52.178.30
+j.gtld-servers.net.	172800	IN	A	192.48.79.30
+i.gtld-servers.net.	172800	IN	A	192.43.172.30
+h.gtld-servers.net.	172800	IN	A	192.54.112.30
+g.gtld-servers.net.	172800	IN	A	192.42.93.30
+f.gtld-servers.net.	172800	IN	A	192.35.51.30
+e.gtld-servers.net.	172800	IN	A	192.12.94.30
+d.gtld-servers.net.	172800	IN	A	192.31.80.30
+c.gtld-servers.net.	172800	IN	A	192.26.92.30
+b.gtld-servers.net.	172800	IN	A	192.33.14.30
+b.gtld-servers.net.	172800	IN	AAAA	2001:503:231d:0:0:0:2:30
+a.gtld-servers.net.	172800	IN	A	192.5.6.30
 
-;; Message size: 274 bytes
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52619
-;; flags: qr rd ; qd: 1 an: 0 au: 3 ad: 3 
+;; Message size: 492 bytes
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21271
+;; flags: qr rd ; qd: 1 an: 0 au: 6 ad: 6 
 ;; QUESTIONS:
-;;	www.cs.stonybrook.edu., type = A, class = IN
+;;	www.amazon.com., type = A, class = IN
 
 ;; ANSWERS:
 
 ;; AUTHORITY RECORDS:
-stonybrook.edu.		172800	IN	NS	nocnoc.stonybrook.edu.
-stonybrook.edu.		172800	IN	NS	whoisthere.stonybrook.edu.
-stonybrook.edu.		172800	IN	NS	mewho.stonybrook.edu.
+amazon.com.		172800	IN	NS	pdns1.ultradns.net.
+amazon.com.		172800	IN	NS	pdns6.ultradns.co.uk.
+amazon.com.		172800	IN	NS	ns1.p31.dynect.net.
+amazon.com.		172800	IN	NS	ns3.p31.dynect.net.
+amazon.com.		172800	IN	NS	ns2.p31.dynect.net.
+amazon.com.		172800	IN	NS	ns4.p31.dynect.net.
 
 ;; ADDITIONAL RECORDS:
-nocnoc.stonybrook.edu.	172800	IN	A	129.49.7.3
-whoisthere.stonybrook.edu.	172800	IN	A	129.49.7.250
-mewho.stonybrook.edu.	172800	IN	A	199.110.254.244
+pdns1.ultradns.net.	172800	IN	AAAA	2001:502:f3ff:0:0:0:0:1
+pdns1.ultradns.net.	172800	IN	A	204.74.108.1
+ns1.p31.dynect.net.	172800	IN	A	208.78.70.31
+ns3.p31.dynect.net.	172800	IN	A	208.78.71.31
+ns2.p31.dynect.net.	172800	IN	A	204.13.250.31
+ns4.p31.dynect.net.	172800	IN	A	204.13.251.31
 
-;; Message size: 153 bytes
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 55816
-;; flags: qr rd ; qd: 1 an: 0 au: 2 ad: 2 
+;; Message size: 289 bytes
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14458
+;; flags: qr rd ; qd: 1 an: 0 au: 4 ad: 0 
 ;; QUESTIONS:
-;;	www.cs.stonybrook.edu., type = A, class = IN
+;;	www.amazon.com., type = A, class = IN
 
 ;; ANSWERS:
 
 ;; AUTHORITY RECORDS:
-cs.stonybrook.edu.	900	IN	NS	dns01.cs.stonybrook.edu.
-cs.stonybrook.edu.	900	IN	NS	dns02.cs.stonybrook.edu.
+www.amazon.com.		900	IN	NS	ns-1178.awsdns-19.org.
+www.amazon.com.		900	IN	NS	ns-277.awsdns-34.com.
+www.amazon.com.		900	IN	NS	ns-1019.awsdns-63.net.
+www.amazon.com.		900	IN	NS	ns-1568.awsdns-04.co.uk.
 
 ;; ADDITIONAL RECORDS:
-dns02.cs.stonybrook.edu.	900	IN	A	130.245.1.48
-dns01.cs.stonybrook.edu.	900	IN	A	130.245.1.15
 
-;; Message size: 111 bytes
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27651
-;; flags: qr aa rd ; qd: 1 an: 1 au: 2 ad: 2 
+;; Message size: 170 bytes
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 58649
+;; flags: qr rd ; qd: 1 an: 0 au: 6 ad: 12 
 ;; QUESTIONS:
-;;	www.cs.stonybrook.edu., type = A, class = IN
+;;	ns-1178.awsdns-19.org., type = A, class = IN
 
 ;; ANSWERS:
-www.cs.stonybrook.edu.	28800	IN	A	130.245.27.2
 
 ;; AUTHORITY RECORDS:
-cs.stonybrook.edu.	28800	IN	NS	dns02.cs.stonybrook.edu.
-cs.stonybrook.edu.	28800	IN	NS	dns01.cs.stonybrook.edu.
+org.			172800	IN	NS	d0.org.afilias-nst.org.
+org.			172800	IN	NS	b2.org.afilias-nst.org.
+org.			172800	IN	NS	b0.org.afilias-nst.org.
+org.			172800	IN	NS	c0.org.afilias-nst.info.
+org.			172800	IN	NS	a2.org.afilias-nst.info.
+org.			172800	IN	NS	a0.org.afilias-nst.info.
 
 ;; ADDITIONAL RECORDS:
-dns01.cs.stonybrook.edu.	28800	IN	A	130.245.1.15
-dns02.cs.stonybrook.edu.	28800	IN	A	130.245.1.48
+d0.org.afilias-nst.org.	172800	IN	A	199.19.57.1
+d0.org.afilias-nst.org.	172800	IN	AAAA	2001:500:f:0:0:0:0:1
+b2.org.afilias-nst.org.	172800	IN	A	199.249.120.1
+b2.org.afilias-nst.org.	172800	IN	AAAA	2001:500:48:0:0:0:0:1
+b0.org.afilias-nst.org.	172800	IN	A	199.19.54.1
+b0.org.afilias-nst.org.	172800	IN	AAAA	2001:500:c:0:0:0:0:1
+c0.org.afilias-nst.info.	172800	IN	A	199.19.53.1
+c0.org.afilias-nst.info.	172800	IN	AAAA	2001:500:b:0:0:0:0:1
+a2.org.afilias-nst.info.	172800	IN	A	199.249.112.1
+a2.org.afilias-nst.info.	172800	IN	AAAA	2001:500:40:0:0:0:0:1
+a0.org.afilias-nst.info.	172800	IN	A	199.19.56.1
+a0.org.afilias-nst.info.	172800	IN	AAAA	2001:500:e:0:0:0:0:1
 
-;; Message size: 127 bytes
-DNS resolved for website : www.cs.stonybrook.edu.   130.245.27.2
+;; Message size: 441 bytes
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41070
+;; flags: qr rd ; qd: 1 an: 0 au: 4 ad: 4 
+;; QUESTIONS:
+;;	ns-1178.awsdns-19.org., type = A, class = IN
+
+;; ANSWERS:
+
+;; AUTHORITY RECORDS:
+awsdns-19.org.		86400	IN	NS	g-ns-725.awsdns-19.org.
+awsdns-19.org.		86400	IN	NS	g-ns-1619.awsdns-19.org.
+awsdns-19.org.		86400	IN	NS	g-ns-147.awsdns-19.org.
+awsdns-19.org.		86400	IN	NS	g-ns-1046.awsdns-19.org.
+
+;; ADDITIONAL RECORDS:
+g-ns-147.awsdns-19.org.	86400	IN	A	205.251.192.147
+g-ns-725.awsdns-19.org.	86400	IN	A	205.251.194.213
+g-ns-1046.awsdns-19.org.	86400	IN	A	205.251.196.22
+g-ns-1619.awsdns-19.org.	86400	IN	A	205.251.198.83
+
+;; Message size: 197 bytes
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64459
+;; flags: qr aa rd ; qd: 1 an: 1 au: 4 ad: 4 
+;; QUESTIONS:
+;;	ns-1178.awsdns-19.org., type = A, class = IN
+
+;; ANSWERS:
+ns-1178.awsdns-19.org.	172800	IN	A	205.251.196.154
+
+;; AUTHORITY RECORDS:
+awsdns-19.org.		172800	IN	NS	g-ns-1046.awsdns-19.org.
+awsdns-19.org.		172800	IN	NS	g-ns-147.awsdns-19.org.
+awsdns-19.org.		172800	IN	NS	g-ns-1619.awsdns-19.org.
+awsdns-19.org.		172800	IN	NS	g-ns-725.awsdns-19.org.
+
+;; ADDITIONAL RECORDS:
+g-ns-1046.awsdns-19.org.	172800	IN	A	205.251.196.22
+g-ns-147.awsdns-19.org.	172800	IN	A	205.251.192.147
+g-ns-1619.awsdns-19.org.	172800	IN	A	205.251.198.83
+g-ns-725.awsdns-19.org.	172800	IN	A	205.251.194.213
+
+;; Message size: 213 bytes
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 17999
+;; flags: qr rd ; qd: 1 an: 0 au: 13 ad: 14 
+;; QUESTIONS:
+;;	ns-277.awsdns-34.com., type = A, class = IN
+
+;; ANSWERS:
+
+;; AUTHORITY RECORDS:
+com.			172800	IN	NS	m.gtld-servers.net.
+com.			172800	IN	NS	l.gtld-servers.net.
+com.			172800	IN	NS	k.gtld-servers.net.
+com.			172800	IN	NS	j.gtld-servers.net.
+com.			172800	IN	NS	i.gtld-servers.net.
+com.			172800	IN	NS	h.gtld-servers.net.
+com.			172800	IN	NS	g.gtld-servers.net.
+com.			172800	IN	NS	f.gtld-servers.net.
+com.			172800	IN	NS	e.gtld-servers.net.
+com.			172800	IN	NS	d.gtld-servers.net.
+com.			172800	IN	NS	c.gtld-servers.net.
+com.			172800	IN	NS	b.gtld-servers.net.
+com.			172800	IN	NS	a.gtld-servers.net.
+
+;; ADDITIONAL RECORDS:
+m.gtld-servers.net.	172800	IN	A	192.55.83.30
+l.gtld-servers.net.	172800	IN	A	192.41.162.30
+k.gtld-servers.net.	172800	IN	A	192.52.178.30
+j.gtld-servers.net.	172800	IN	A	192.48.79.30
+i.gtld-servers.net.	172800	IN	A	192.43.172.30
+h.gtld-servers.net.	172800	IN	A	192.54.112.30
+g.gtld-servers.net.	172800	IN	A	192.42.93.30
+f.gtld-servers.net.	172800	IN	A	192.35.51.30
+e.gtld-servers.net.	172800	IN	A	192.12.94.30
+d.gtld-servers.net.	172800	IN	A	192.31.80.30
+c.gtld-servers.net.	172800	IN	A	192.26.92.30
+b.gtld-servers.net.	172800	IN	A	192.33.14.30
+b.gtld-servers.net.	172800	IN	AAAA	2001:503:231d:0:0:0:2:30
+a.gtld-servers.net.	172800	IN	A	192.5.6.30
+
+;; Message size: 498 bytes
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6773
+;; flags: qr rd ; qd: 1 an: 0 au: 4 ad: 4 
+;; QUESTIONS:
+;;	ns-277.awsdns-34.com., type = A, class = IN
+
+;; ANSWERS:
+
+;; AUTHORITY RECORDS:
+awsdns-34.com.		172800	IN	NS	g-ns-35.awsdns-34.com.
+awsdns-34.com.		172800	IN	NS	g-ns-610.awsdns-34.com.
+awsdns-34.com.		172800	IN	NS	g-ns-1186.awsdns-34.com.
+awsdns-34.com.		172800	IN	NS	g-ns-1762.awsdns-34.com.
+
+;; ADDITIONAL RECORDS:
+g-ns-35.awsdns-34.com.	172800	IN	A	205.251.192.35
+g-ns-610.awsdns-34.com.	172800	IN	A	205.251.194.98
+g-ns-1186.awsdns-34.com.	172800	IN	A	205.251.196.162
+g-ns-1762.awsdns-34.com.	172800	IN	A	205.251.198.226
+
+;; Message size: 195 bytes
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 34308
+;; flags: qr rd ; qd: 1 an: 0 au: 4 ad: 4 
+;; QUESTIONS:
+;;	ns-277.awsdns-34.com., type = A, class = IN
+
+;; ANSWERS:
+
+;; AUTHORITY RECORDS:
+awsdns-34.com.		172800	IN	NS	g-ns-35.awsdns-34.com.
+awsdns-34.com.		172800	IN	NS	g-ns-610.awsdns-34.com.
+awsdns-34.com.		172800	IN	NS	g-ns-1186.awsdns-34.com.
+awsdns-34.com.		172800	IN	NS	g-ns-1762.awsdns-34.com.
+
+;; ADDITIONAL RECORDS:
+g-ns-35.awsdns-34.com.	172800	IN	A	205.251.192.35
+g-ns-610.awsdns-34.com.	172800	IN	A	205.251.194.98
+g-ns-1186.awsdns-34.com.	172800	IN	A	205.251.196.162
+g-ns-1762.awsdns-34.com.	172800	IN	A	205.251.198.226
+
+;; Message size: 195 bytes
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 55038
+;; flags: qr aa rd ; qd: 1 an: 1 au: 4 ad: 4 
+;; QUESTIONS:
+;;	ns-277.awsdns-34.com., type = A, class = IN
+
+;; ANSWERS:
+ns-277.awsdns-34.com.	172800	IN	A	205.251.193.21
+
+;; AUTHORITY RECORDS:
+awsdns-34.com.		172800	IN	NS	g-ns-1186.awsdns-34.com.
+awsdns-34.com.		172800	IN	NS	g-ns-1762.awsdns-34.com.
+awsdns-34.com.		172800	IN	NS	g-ns-35.awsdns-34.com.
+awsdns-34.com.		172800	IN	NS	g-ns-610.awsdns-34.com.
+
+;; ADDITIONAL RECORDS:
+g-ns-1186.awsdns-34.com.	172800	IN	A	205.251.196.162
+g-ns-1762.awsdns-34.com.	172800	IN	A	205.251.198.226
+g-ns-35.awsdns-34.com.	172800	IN	A	205.251.192.35
+g-ns-610.awsdns-34.com.	172800	IN	A	205.251.194.98
+
+;; Message size: 211 bytes
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13694
+;; flags: qr rd ; qd: 1 an: 0 au: 13 ad: 14 
+;; QUESTIONS:
+;;	ns-1019.awsdns-63.net., type = A, class = IN
+
+;; ANSWERS:
+
+;; AUTHORITY RECORDS:
+net.			172800	IN	NS	m.gtld-servers.net.
+net.			172800	IN	NS	l.gtld-servers.net.
+net.			172800	IN	NS	k.gtld-servers.net.
+net.			172800	IN	NS	j.gtld-servers.net.
+net.			172800	IN	NS	i.gtld-servers.net.
+net.			172800	IN	NS	h.gtld-servers.net.
+net.			172800	IN	NS	g.gtld-servers.net.
+net.			172800	IN	NS	f.gtld-servers.net.
+net.			172800	IN	NS	e.gtld-servers.net.
+net.			172800	IN	NS	d.gtld-servers.net.
+net.			172800	IN	NS	c.gtld-servers.net.
+net.			172800	IN	NS	b.gtld-servers.net.
+net.			172800	IN	NS	a.gtld-servers.net.
+
+;; ADDITIONAL RECORDS:
+m.gtld-servers.net.	172800	IN	A	192.55.83.30
+l.gtld-servers.net.	172800	IN	A	192.41.162.30
+k.gtld-servers.net.	172800	IN	A	192.52.178.30
+j.gtld-servers.net.	172800	IN	A	192.48.79.30
+i.gtld-servers.net.	172800	IN	A	192.43.172.30
+h.gtld-servers.net.	172800	IN	A	192.54.112.30
+g.gtld-servers.net.	172800	IN	A	192.42.93.30
+f.gtld-servers.net.	172800	IN	A	192.35.51.30
+e.gtld-servers.net.	172800	IN	A	192.12.94.30
+d.gtld-servers.net.	172800	IN	A	192.31.80.30
+c.gtld-servers.net.	172800	IN	A	192.26.92.30
+b.gtld-servers.net.	172800	IN	A	192.33.14.30
+b.gtld-servers.net.	172800	IN	AAAA	2001:503:231d:0:0:0:2:30
+a.gtld-servers.net.	172800	IN	A	192.5.6.30
+
+;; Message size: 496 bytes
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30617
+;; flags: qr rd ; qd: 1 an: 0 au: 4 ad: 4 
+;; QUESTIONS:
+;;	ns-1019.awsdns-63.net., type = A, class = IN
+
+;; ANSWERS:
+
+;; AUTHORITY RECORDS:
+awsdns-63.net.		172800	IN	NS	g-ns-193.awsdns-63.net.
+awsdns-63.net.		172800	IN	NS	g-ns-514.awsdns-63.net.
+awsdns-63.net.		172800	IN	NS	g-ns-1407.awsdns-63.net.
+awsdns-63.net.		172800	IN	NS	g-ns-1983.awsdns-63.net.
+
+;; ADDITIONAL RECORDS:
+g-ns-193.awsdns-63.net.	172800	IN	A	205.251.192.193
+g-ns-514.awsdns-63.net.	172800	IN	A	205.251.194.2
+g-ns-1407.awsdns-63.net.	172800	IN	A	205.251.197.127
+g-ns-1983.awsdns-63.net.	172800	IN	A	205.251.199.191
+
+;; Message size: 197 bytes
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48041
+;; flags: qr aa rd ; qd: 1 an: 1 au: 4 ad: 4 
+;; QUESTIONS:
+;;	ns-1019.awsdns-63.net., type = A, class = IN
+
+;; ANSWERS:
+ns-1019.awsdns-63.net.	172800	IN	A	205.251.195.251
+
+;; AUTHORITY RECORDS:
+awsdns-63.net.		172800	IN	NS	g-ns-1407.awsdns-63.net.
+awsdns-63.net.		172800	IN	NS	g-ns-193.awsdns-63.net.
+awsdns-63.net.		172800	IN	NS	g-ns-1983.awsdns-63.net.
+awsdns-63.net.		172800	IN	NS	g-ns-514.awsdns-63.net.
+
+;; ADDITIONAL RECORDS:
+g-ns-1407.awsdns-63.net.	172800	IN	A	205.251.197.127
+g-ns-193.awsdns-63.net.	172800	IN	A	205.251.192.193
+g-ns-1983.awsdns-63.net.	172800	IN	A	205.251.199.191
+g-ns-514.awsdns-63.net.	172800	IN	A	205.251.194.2
+
+;; Message size: 213 bytes
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57727
+;; flags: qr aa rd ; qd: 1 an: 1 au: 4 ad: 0 
+;; QUESTIONS:
+;;	www.amazon.com., type = A, class = IN
+
+;; ANSWERS:
+www.amazon.com.		60	IN	A	54.239.25.200
+
+;; AUTHORITY RECORDS:
+www.amazon.com.		1800	IN	NS	ns-1019.awsdns-63.net.
+www.amazon.com.		1800	IN	NS	ns-1178.awsdns-19.org.
+www.amazon.com.		1800	IN	NS	ns-1568.awsdns-04.co.uk.
+www.amazon.com.		1800	IN	NS	ns-277.awsdns-34.com.
+
+;; ADDITIONAL RECORDS:
+
+;; Message size: 186 bytes
+DNS resolved for website : www.amazon.com.   54.239.25.200

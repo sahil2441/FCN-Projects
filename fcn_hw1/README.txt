@@ -10,7 +10,9 @@
 -- The class fcn_hw/DNSResolver.java contains the method
 	fcn_hw.DNSResolver.resolveDNS(String, int)
 	that takes two arguments - website name and the Type. This method resolves the DNS
-	recursively.
+	recursively by calling 
+	fcn_hw.DNSResolver.resolveAddress(String, String, int)
+	that takes a third argument as well, which is the root server which we need to contact.
 
 
 ##How to run the program
@@ -41,7 +43,11 @@ server address in this section.
 find the IP address of the server names listed in the authoritative section (recursively) and then find the desired
 IP Address.
 
-The fourth trivial case would be all four sections would be null and therefore DNS resolution would fail.  
+The fourth trivial case would be all four sections would be null and therefore DNS resolution would fail.
+
+To change the website name and queryType, make changes to  
+fcn_hw.DNSResolver.website and
+fcn_hw.DNSResolver.queryType
 
 Part B:
 The main method of the class: fcn_hw.MyDig
@@ -58,6 +64,6 @@ experiment_2.png
 experiment_3.png
 
 Part D:
-Refer to the image file in the root directory -- dns_format.png
+Refer to the image file in the root directory -- dns_packet.png
 
 

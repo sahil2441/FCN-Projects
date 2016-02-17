@@ -12,7 +12,7 @@ import org.xbill.DNS.SimpleResolver;
 
 public class DNSResolver {
 
-	static String website = "www.cs.stonybrook.edu.";
+	static String website = "www.amazon.com.";
 	static int queryType = 1;
 
 	public static void main(String[] args) {
@@ -67,7 +67,7 @@ public class DNSResolver {
 
 		if (response == null)
 			return null;
-		System.out.println(response);
+		// System.out.println(response);
 
 		// check if answer set is not empty. If it's not empty return the first
 		// value
