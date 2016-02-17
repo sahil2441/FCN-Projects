@@ -17,7 +17,10 @@
 
 ##How to run the program
 
+####################################################
 Part A:
+####################################################
+
 The method 
 fcn_hw.DNSResolver.resolveDNS(String, int)
 takes two arguments - website name and the type of query and resolves the DNS.
@@ -49,12 +52,21 @@ To change the website name and queryType, make changes to
 fcn_hw.DNSResolver.website and
 fcn_hw.DNSResolver.queryType
 
+To run this programs as script, refer to the .sh file:
+/fcn_hw/src/fcn_hw/mydnsresolver.sh
+
+####################################################
 Part B:
+####################################################
+
 The main method of the class: fcn_hw.MyDig
 calls the method used in part A to resolve the DNS query.
 The expected output is listed in the file: mydig_output.txt
 
+####################################################
 Part C:
+####################################################
+
 The class fcn_hw.PerformanceMeasure has 3 method corresponding to each of the 
 experiments as listed in Assignment.
 
@@ -74,7 +86,10 @@ experiment_1.png
 experiment_2.png
 experiment_3.png
 
+####################################################
 Part D:
+####################################################
+
 Refer to the image file in the root directory -- dns_packet.png
 
 
