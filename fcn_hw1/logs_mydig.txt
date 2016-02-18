@@ -1,1 +1,0 @@
-Resolved DNS for: www.cs.stonybrook.edu. and query type: 1   130.245.27.2

@@ -15,8 +15,8 @@ import org.xbill.DNS.SimpleResolver;
 public class DNSResolver {
 	final static String IPADDRESS_PATTERN = "(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)";
 
-	static String website = "www.facebook.com.";
-	static int queryType = 1;
+	static String website = "www.amazon.com.";
+	static int queryType = 15;
 
 	public static void main(String[] args) {
 

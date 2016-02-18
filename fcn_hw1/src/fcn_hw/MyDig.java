@@ -2,7 +2,7 @@ package fcn_hw;
 
 public class MyDig {
 	static String website = "www.cs.stonybrook.edu.";
-	static int queryType = 1;
+	static int queryType = 2;
 
 	@SuppressWarnings("static-access")
 	public static void main(String[] args) {
