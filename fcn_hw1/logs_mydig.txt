@@ -1,0 +1,97 @@
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 46589
+;; flags: qr rd ; qd: 1 an: 0 au: 6 ad: 7 
+;; QUESTIONS:
+;;	www.cs.stonybrook.edu., type = NS, class = IN
+
+;; ANSWERS:
+
+;; AUTHORITY RECORDS:
+edu.			172800	IN	NS	a.edu-servers.net.
+edu.			172800	IN	NS	c.edu-servers.net.
+edu.			172800	IN	NS	d.edu-servers.net.
+edu.			172800	IN	NS	f.edu-servers.net.
+edu.			172800	IN	NS	g.edu-servers.net.
+edu.			172800	IN	NS	l.edu-servers.net.
+
+;; ADDITIONAL RECORDS:
+a.edu-servers.net.	172800	IN	A	192.5.6.30
+c.edu-servers.net.	172800	IN	A	192.26.92.30
+d.edu-servers.net.	172800	IN	A	192.31.80.30
+f.edu-servers.net.	172800	IN	A	192.35.51.30
+g.edu-servers.net.	172800	IN	A	192.42.93.30
+l.edu-servers.net.	172800	IN	A	192.41.162.30
+g.edu-servers.net.	172800	IN	AAAA	2001:503:cc2c:0:0:0:2:36
+
+;; Message size: 274 bytes
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52249
+;; flags: qr rd ; qd: 1 an: 0 au: 3 ad: 3 
+;; QUESTIONS:
+;;	www.cs.stonybrook.edu., type = NS, class = IN
+
+;; ANSWERS:
+
+;; AUTHORITY RECORDS:
+stonybrook.edu.		172800	IN	NS	nocnoc.stonybrook.edu.
+stonybrook.edu.		172800	IN	NS	whoisthere.stonybrook.edu.
+stonybrook.edu.		172800	IN	NS	mewho.stonybrook.edu.
+
+;; ADDITIONAL RECORDS:
+nocnoc.stonybrook.edu.	172800	IN	A	129.49.7.3
+whoisthere.stonybrook.edu.	172800	IN	A	129.49.7.250
+mewho.stonybrook.edu.	172800	IN	A	199.110.254.244
+
+;; Message size: 153 bytes
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 46093
+;; flags: qr rd ; qd: 1 an: 0 au: 2 ad: 2 
+;; QUESTIONS:
+;;	www.cs.stonybrook.edu., type = NS, class = IN
+
+;; ANSWERS:
+
+;; AUTHORITY RECORDS:
+cs.stonybrook.edu.	900	IN	NS	dns02.cs.stonybrook.edu.
+cs.stonybrook.edu.	900	IN	NS	dns01.cs.stonybrook.edu.
+
+;; ADDITIONAL RECORDS:
+dns02.cs.stonybrook.edu.	900	IN	A	130.245.1.48
+dns01.cs.stonybrook.edu.	900	IN	A	130.245.1.15
+
+;; Message size: 111 bytes
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 17014
+;; flags: qr aa rd ; qd: 1 an: 0 au: 1 ad: 0 
+;; QUESTIONS:
+;;	www.cs.stonybrook.edu., type = NS, class = IN
+
+;; ANSWERS:
+
+;; AUTHORITY RECORDS:
+cs.stonybrook.edu.	3600	IN	SOA	dns01.cs.stonybrook.edu. root.dns01.cs.stonybrook.edu. 2015020599 3600 600 43200 3600
+
+;; ADDITIONAL RECORDS:
+
+;; Message size: 86 bytes
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 44596
+;; flags: qr rd ; qd: 1 an: 0 au: 6 ad: 7 
+;; QUESTIONS:
+;;	dns01.cs.stonybrook.edu., type = NS, class = IN
+
+;; ANSWERS:
+
+;; AUTHORITY RECORDS:
+edu.			172800	IN	NS	l.edu-servers.net.
+edu.			172800	IN	NS	g.edu-servers.net.
+edu.			172800	IN	NS	f.edu-servers.net.
+edu.			172800	IN	NS	d.edu-servers.net.
+edu.			172800	IN	NS	c.edu-servers.net.
+edu.			172800	IN	NS	a.edu-servers.net.
+
+;; ADDITIONAL RECORDS:
+l.edu-servers.net.	172800	IN	A	192.41.162.30
+g.edu-servers.net.	172800	IN	A	192.42.93.30
+g.edu-servers.net.	172800	IN	AAAA	2001:503:cc2c:0:0:0:2:36
+f.edu-servers.net.	172800	IN	A	192.35.51.30
+d.edu-servers.net.	172800	IN	A	192.31.80.30
+c.edu-servers.net.	172800	IN	A	192.26.92.30
+a.edu-servers.net.	172800	IN	A	192.5.6.30
+
+;; Message size: 276 bytes

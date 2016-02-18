@@ -53,7 +53,7 @@ fcn_hw.DNSResolver.website and
 fcn_hw.DNSResolver.queryType
 
 To run this programs as script, refer to the .sh file:
-/fcn_hw/src/fcn_hw/mydnsresolver.sh
+/fcn_hw/src/mydnsresolver.sh
 
 ####################################################
 Part B:
@@ -86,10 +86,13 @@ experiment_1.png
 experiment_2.png
 experiment_3.png
 
+The results are listed in the file: performance_measure_PartC.txt
+
 ####################################################
 Part D:
 ####################################################
 
-Refer to the image file in the root directory -- dns_packet.png
+Refer to the image file in the root directory -- dns_packet.png or
+DNS_packet_partD.txt
 
 

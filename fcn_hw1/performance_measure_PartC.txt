@@ -577,8 +577,3 @@ Iteration number:8,Time taken to resolve DNS for: www.Wikipedia.org. : 306ms
 Iteration number:9,Time taken to resolve DNS for: www.Wikipedia.org. : 327ms
 Iteration number:10,Time taken to resolve DNS for: www.Wikipedia.org. : 350ms
 Average time for website: www.Wikipedia.org. is 129
-Iteration number:1,Time taken to resolve DNS for: www.Qq.com. : 21335ms
-Iteration number:2,Time taken to resolve DNS for: www.Qq.com. : 1435ms
-Iteration number:3,Time taken to resolve DNS for: www.Qq.com. : 21882ms
-Iteration number:4,Time taken to resolve DNS for: www.Qq.com. : 2190ms
-Iteration number:5,Time taken to resolve DNS for: www.Qq.com. : 2348ms

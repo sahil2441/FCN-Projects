@@ -12,10 +12,9 @@ public class PerformanceMeasure {
 
 	public static void main(String[] args) {
 
-		// experiment1();
 		experiment2();
-		// experiment3();
-
+		experiment3();
+		experiment1();
 	}
 
 	/**
@@ -32,6 +31,7 @@ public class PerformanceMeasure {
 		int count = 0;
 		for (int i = 0; i < websiteList.length; i++) {
 			int j = 0;
+			totalTime = 0;
 			while (j++ < 10) {
 				startTime = System.currentTimeMillis();
 				resolver.resolveAddress(websiteList[i], googleDNS2, queryType);
@@ -64,6 +64,7 @@ public class PerformanceMeasure {
 		int count = 0;
 		for (int i = 0; i < websiteList.length; i++) {
 			int j = 0;
+			totalTime = 0;
 			while (j++ < 10) {
 				startTime = System.currentTimeMillis();
 				resolver.resolveAddress(websiteList[i], localDNS, queryType);
@@ -90,6 +91,7 @@ public class PerformanceMeasure {
 
 		for (int i = 0; i < websiteList.length; i++) {
 			int j = 0;
+			totalTime = 0;
 			while (j++ < 10) {
 				startTime = System.currentTimeMillis();
 				resolver.resolveDNS(websiteList[i], queryType);

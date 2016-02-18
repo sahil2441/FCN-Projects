@@ -19,5 +19,4 @@ public class MyDig {
 		else
 			System.out.println("Failed to resolve DNS resolved for: " + website);
 	}
-
 }
