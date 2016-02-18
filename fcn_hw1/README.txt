@@ -21,6 +21,9 @@
 Part A:
 ####################################################
 
+NOTE: To view response, uncomment line 94 in 
+fcn_hw.DNSResolver.resolveAddress(String, String, int)
+
 The method 
 fcn_hw.DNSResolver.resolveDNS(String, int)
 takes two arguments - website name and the type of query and resolves the DNS.
