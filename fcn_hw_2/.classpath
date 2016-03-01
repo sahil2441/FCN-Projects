@@ -2,5 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jNetPcap"/>
+	<classpathentry kind="lib" path="/Users/sahiljain/Google_Drive/SBU/Academics/Spring_16/CSE534/fcn_hw/fcn_hw_2/jnetpcap-1.3.0/jnetpcap.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
